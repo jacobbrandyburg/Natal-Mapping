@@ -58,6 +58,10 @@ The migration of adult sea turtles back to the exact beaches where they were bor
 ## Description
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
+This repository will store the code for a ROS2 workspace that will allow the model, Turtlebot 2e, to work in ROS2. This repository also takes the Kobuki base code from the *Idorobotics: Turtlebot2_ROS2* repository and the Astra camera it uses from the *Orbbec: OrbbecSDK_ROS2* repository.
+
+As of the end of Capstone 1, I am hoping that this repository will contain all the code needed for getting the Turtlebot 2e to move completely in ROS2 and the Astra camera to 
+
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
