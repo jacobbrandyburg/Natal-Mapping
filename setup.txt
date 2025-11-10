@@ -1,0 +1,4 @@
+1). Source ROS2 with command(I am currently running kilted):
+	source /opt/ros/kilted/setup.bash
+2). Make sure to install all packages in a src folder
+
