@@ -1,12 +1,20 @@
-# Natal-Mapping
+# Natal-Mapping: Using ROS 2 Kilted Kaiju on the Turtlebot 2e Model
 
 
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+This repository has all the code needed for running the model: Turtlebot 2e in ROS2, but some packages need to be built, so please follow this step-by-step instruction for doing so.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+This is also made, in part by ________ in they're turtlebot2 ROS2 repo https://github.com/idorobotics/turtlebot2_ros2. They suggest also following these commands on both the docked and workstation laptop:
+
+sudo apt-get install ros-kilted-teleop-twist-keyboard 
+ros-kilted-joy-teleop 
+ros-kilted-teleop-twist-joy
+
+(This is just making sure you can control the Turtlebot with either the keyboard or a joystick)
+
+
 
 ## Add your files
 
