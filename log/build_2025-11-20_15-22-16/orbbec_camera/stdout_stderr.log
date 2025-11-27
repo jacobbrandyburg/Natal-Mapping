@@ -1,0 +1,156 @@
+[  2%] [32mBuilding CXX object CMakeFiles/start_benchmark_node.dir/rclcpp_components/node_main_start_benchmark_node.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/orbbec_camera_node.dir/rclcpp_components/node_main_orbbec_camera_node.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/frame_latency_node.dir/rclcpp_components/node_main_frame_latency_node.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir_node.dir/rclcpp_components/node_main_multi_save_rgbir_node.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/src/utils.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/src/d2c_viewer.cpp:26[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node.h:65[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h:23[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/tools/start_benchmark.cpp:3[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node.h:65[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h:23[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/src/ob_camera_node_driver.cpp:17[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node.h:65[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/src/ob_camera_node.cpp:17[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node.h:65[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/src/ros_service.cpp:17[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:17[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node.h:65[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h:23[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/tools/multi_save_rgbir.cpp:4[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:18[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:19[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/include/orbbec_camera/d2c_viewer.h:20[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+[ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable frame_latency_node[0m
+[ 43%] [32m[1mLinking CXX executable orbbec_camera_node[0m
+[ 43%] Built target frame_latency_node
+[ 45%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[ 45%] Built target orbbec_camera_node
+[ 47%] [32m[1mLinking CXX executable multi_save_rgbir_node[0m
+[ 47%] Built target multi_save_rgbir_node
+[ 50%] [32m[1mLinking CXX executable start_benchmark_node[0m
+[ 50%] Built target start_benchmark_node
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:118: CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:160: CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o] Error 1
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/start_benchmark.dir/build.make:76: CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:507: CMakeFiles/start_benchmark.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:76: CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o] Error 1
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/multi_save_rgbir.dir/build.make:76: CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:559: CMakeFiles/multi_save_rgbir.dir/all] Error 2
+[ 52%] [32m[1mLinking CXX shared library libframe_latency.so[0m
+[ 52%] Built target frame_latency
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/orbbec_camera.dir/build.make:132: CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/orbbec_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

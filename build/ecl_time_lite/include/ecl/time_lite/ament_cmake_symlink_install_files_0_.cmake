@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_time_lite/include/ecl/time_lite" FILES "cpu_time.hpp" "date.hpp" "errors.hpp" "functions.hpp" "functions_mac.hpp" "functions_pos.hpp" "functions_rt.hpp" "functions_win.hpp" "macros.hpp" "types.hpp" "types_pos.hpp" "types_win.hpp" "DESTINATION" "include/ecl/time_lite")

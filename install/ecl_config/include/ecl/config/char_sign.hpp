@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_config/include/ecl/config/char_sign.hpp

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/cv_bridge/src" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge/src/cv_bridge/cv_bridge_export.h" "DESTINATION" "include/cv_bridge/cv_bridge")

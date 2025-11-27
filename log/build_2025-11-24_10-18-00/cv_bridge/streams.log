@@ -1,0 +1,121 @@
+[0.037s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge
+[0.396s] -- The C compiler identification is GNU 13.3.0
+[1.192s] -- The CXX compiler identification is GNU 13.3.0
+[1.988s] -- Detecting C compiler ABI info
+[2.230s] -- Detecting C compiler ABI info - done
+[2.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.239s] -- Detecting C compile features
+[2.240s] -- Detecting C compile features - done
+[2.409s] -- Detecting CXX compiler ABI info
+[2.628s] -- Detecting CXX compiler ABI info - done
+[2.637s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.637s] -- Detecting CXX compile features
+[2.637s] -- Detecting CXX compile features - done
+[2.663s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.913s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.587s] -- Found Python3: /usr/include/python3.12 (found version "3.12.3") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[3.630s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: python312 
+[3.638s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.908s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.923s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.071s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[4.077s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[4.211s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.523s] -- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[4.731s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[4.969s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[4.969s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[5.149s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[5.149s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[5.354s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[5.364s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[5.522s] -- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.721s] -- Found Threads: TRUE  
+[6.974s] -- Configuring done (6.9s)
+[7.006s] -- Generating done (0.0s)
+[7.014s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge
+[7.027s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge
+[7.029s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge -- -j16 -l16
+[7.085s] [  5%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o[0m
+[7.087s] [ 11%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[7.088s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.090s] [ 22%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[7.095s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.103s] [ 27%] Built target ament_cmake_python_symlink_cv_bridge
+[7.451s] running egg_info
+[7.452s] creating cv_bridge.egg-info
+[7.482s] writing cv_bridge.egg-info/PKG-INFO
+[7.482s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[7.483s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[7.483s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[7.573s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[7.573s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[7.607s] [ 27%] Built target ament_cmake_python_build_cv_bridge_egg
+[8.123s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.162s] [ 33%] Built target gtest_main
+[11.233s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.291s] [ 38%] Built target gtest
+[11.378s] [ 44%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[11.682s] [ 44%] Built target cv_bridge
+[11.703s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o[0m
+[11.703s] [ 55%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[11.703s] [ 61%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[11.704s] [ 66%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[11.705s] [ 72%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[11.707s] [ 77%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[11.707s] [ 83%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[11.708s] [ 88%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_dynamic_scaling.cpp.o[0m
+[17.379s] [ 94%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[18.467s] [ 94%] Built target cv_bridge-utest
+[20.764s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[21.184s] [100%] Built target cv_bridge_boost
+[21.207s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge -- -j16 -l16
+[21.209s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge
+[21.220s] -- Install configuration: ""
+[21.221s] -- Execute custom install script
+[21.222s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[21.239s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[21.256s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/PKG-INFO
+[21.273s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/SOURCES.txt
+[21.289s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/dependency_links.txt
+[21.300s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/top_level.txt
+[21.313s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py
+[21.325s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py
+[21.343s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[21.360s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost//cv_bridge_boost.so
+[21.376s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[21.391s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[21.405s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[21.417s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[21.431s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/libcv_bridge.so
+[21.446s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[21.457s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[21.469s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[21.483s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[21.495s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/path.sh
+[21.511s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[21.530s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/local_setup.bash
+[21.547s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/local_setup.sh
+[21.569s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[21.587s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[21.602s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/package.dsv
+[21.620s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[21.635s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[21.648s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.662s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[21.676s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[21.691s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[21.707s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/package.xml
+[21.778s] Listing '/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...
+[21.778s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py'...
+[21.778s] Listing '/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost'...
+[21.778s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py'...
+[21.785s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[21.785s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[21.788s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge

@@ -1,0 +1,19 @@
+[1.742s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/python3.12/site-packages:/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests/build --no-deps symlink_data
+[2.067s] running develop
+[2.279s] running egg_info
+[2.299s] writing opencv_tests.egg-info/PKG-INFO
+[2.299s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[2.299s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[2.299s] writing requirements to opencv_tests.egg-info/requires.txt
+[2.299s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[2.340s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.341s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.363s] running build_ext
+[2.363s] Creating /home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/python3.12/site-packages/opencv-tests.egg-link (link to .)
+[2.364s] Installing broadcast script to /home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/opencv_tests
+[2.364s] Installing rosfacedetect script to /home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/opencv_tests
+[2.364s] Installing source script to /home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/opencv_tests
+[2.365s] 
+[2.365s] Installed /home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests
+[2.365s] running symlink_data
+[2.394s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/ROS2_WORKSPACES/Natal/install/opencv_tests/lib/python3.12/site-packages:/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jacob/ROS2_WORKSPACES/Natal/build/opencv_tests/build --no-deps symlink_data

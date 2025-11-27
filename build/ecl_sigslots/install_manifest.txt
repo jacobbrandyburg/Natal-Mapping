@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsExport.cmake

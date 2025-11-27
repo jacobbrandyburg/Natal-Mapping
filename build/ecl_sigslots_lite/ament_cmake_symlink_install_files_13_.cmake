@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_sigslots_lite" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_sigslots_lite/ament_cmake_index/share/ament_index/resource_index/packages/ecl_sigslots_lite" "DESTINATION" "share/ament_index/resource_index/packages")

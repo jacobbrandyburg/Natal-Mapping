@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f2b6e0b5a054b1102a1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orbbec_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "435le_example_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-435le_example_node-05a0274679d49d31c0e2.json",
+					"name" : "435le_example_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_latency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_latency-5849cff99e12c80c00a0.json",
+					"name" : "frame_latency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_latency_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_latency_node-57a813c52b6bf51803e8.json",
+					"name" : "frame_latency_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_sync_example_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_sync_example_node-2cf20bec77ef69a2acd6.json",
+					"name" : "image_sync_example_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_camera_profile_mode_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_camera_profile_mode_node-a3796f93b5435569d320.json",
+					"name" : "list_camera_profile_mode_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_depth_work_mode_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_depth_work_mode_node-c2f9d7b1937e2d63ccb5.json",
+					"name" : "list_depth_work_mode_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_devices_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_devices_node-6c3f6ec12399afdf43ce.json",
+					"name" : "list_devices_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_save_rgbir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_save_rgbir-0b573704f448f757f6c6.json",
+					"name" : "multi_save_rgbir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_save_rgbir_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_save_rgbir_node-133d0328ef006d6610b9.json",
+					"name" : "multi_save_rgbir_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ob_benchmark_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ob_benchmark_node-24b1539be852f9b1f8ca.json",
+					"name" : "ob_benchmark_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera-5a25281526492c028e77.json",
+					"name" : "orbbec_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera_node-936c3ab1541dcf375372.json",
+					"name" : "orbbec_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera_uninstall-6b8d66993cc920f9db22.json",
+					"name" : "orbbec_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_benchmark_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_benchmark_node-50a6afafe7406e2f0fa1.json",
+					"name" : "service_benchmark_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_device_ip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_device_ip-02962fb16dc97e4c79b1.json",
+					"name" : "set_device_ip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "start_benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-start_benchmark-74a59b5f46f9c2ae5c28.json",
+					"name" : "start_benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "start_benchmark_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-start_benchmark_node-ef1b6ecee880adc96139.json",
+					"name" : "start_benchmark_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_statistics_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_statistics_node-75cfe08927a5f95af5b7.json",
+					"name" : "topic_statistics_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0690b7bef907ec92e848.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera",
+		"source" : "/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

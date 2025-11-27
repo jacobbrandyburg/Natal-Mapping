@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera/package.xml" "DESTINATION" "share/orbbec_camera")

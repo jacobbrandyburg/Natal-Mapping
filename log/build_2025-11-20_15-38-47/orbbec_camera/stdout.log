@@ -1,0 +1,11 @@
+[  4%] Built target frame_latency_node
+[  9%] Built target orbbec_camera_node
+[ 13%] Built target start_benchmark_node
+[ 18%] Built target multi_save_rgbir_node
+[ 22%] Built target frame_latency
+[ 25%] [32mBuilding CXX object CMakeFiles/multi_save_rgbir.dir/tools/multi_save_rgbir.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/start_benchmark.dir/tools/start_benchmark.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m

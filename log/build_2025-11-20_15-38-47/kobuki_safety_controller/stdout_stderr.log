@@ -1,0 +1,7 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller_node.dir/rclcpp_components/node_main_kobuki_safety_controller_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable kobuki_safety_controller_node[0m
+[ 75%] Built target kobuki_safety_controller_node
+gmake[2]: *** [CMakeFiles/kobuki_safety_controller.dir/build.make:76: CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_safety_controller.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

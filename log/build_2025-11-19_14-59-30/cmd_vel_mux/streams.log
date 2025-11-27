@@ -1,0 +1,98 @@
+[0.038s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/cmd_vel_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux
+[0.382s] -- The C compiler identification is GNU 13.3.0
+[1.087s] -- The CXX compiler identification is GNU 13.3.0
+[1.717s] -- Detecting C compiler ABI info
+[2.002s] -- Detecting C compiler ABI info - done
+[2.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.010s] -- Detecting C compile features
+[2.011s] -- Detecting C compile features - done
+[2.075s] -- Detecting CXX compiler ABI info
+[2.369s] -- Detecting CXX compiler ABI info - done
+[2.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.377s] -- Detecting CXX compile features
+[2.378s] -- Detecting CXX compile features - done
+[2.381s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.543s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.663s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[2.808s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.822s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.940s] -- Found rcl_interfaces: 2.3.0 (/opt/ros/kilted/share/rcl_interfaces/cmake)
+[3.002s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.049s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.054s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[3.184s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.516s] -- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[3.574s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[3.575s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[3.575s]   with modern CMake targets instead.  Try replacing this call with:
+[3.575s] 
+[3.575s]     target_link_libraries(cmd_vel_mux PUBLIC
+[3.575s]       ${geometry_msgs_TARGETS}
+[3.575s]       ${rcl_interfaces_TARGETS}
+[3.575s]       ${std_msgs_TARGETS}
+[3.575s]       rclcpp::rclcpp
+[3.575s]       rclcpp_components::component
+[3.575s]       rclcpp_components::component_manager
+[3.575s]       rcpputils::rcpputils
+[3.575s]     )
+[3.575s] 
+[3.575s] Call Stack (most recent call first):
+[3.575s]   CMakeLists.txt:25 (ament_target_dependencies)
+[3.575s] 
+[3.575s] [0m
+[3.582s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[3.689s] -- Found launch_testing_ament_cmake: 3.8.4 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)
+[3.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.700s] -- Configured cppcheck include dirs: /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/cmd_vel_mux/include
+[3.700s] -- Configured cppcheck exclude dirs and/or files: 
+[3.702s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.702s] -- Configured cpplint exclude dirs and/or files: 
+[3.702s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.703s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.703s] -- Added test 'lint_cmake' to check CMake code style
+[3.704s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.705s] -- Added test 'uncrustify' to check C / C++ code style
+[3.705s] -- Configured uncrustify additional arguments: 
+[3.706s] -- Added test 'xmllint' to check XML markup files
+[3.708s] -- Configuring done (3.6s)
+[3.724s] -- Generating done (0.0s)
+[3.729s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux
+[3.738s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/cmd_vel_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux
+[3.738s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux -- -j16 -l16
+[3.789s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_vel_mux_node.dir/rclcpp_components/node_main_cmd_vel_mux_node.cpp.o[0m
+[3.789s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_mux.dir/src/cmd_vel_mux.cpp.o[0m
+[7.386s] [ 75%] [32m[1mLinking CXX executable cmd_vel_mux_node[0m
+[7.670s] [ 75%] Built target cmd_vel_mux_node
+[20.441s] [100%] [32m[1mLinking CXX shared library libcmd_vel_mux.so[0m
+[20.820s] [100%] Built target cmd_vel_mux
+[20.831s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux -- -j16 -l16
+[20.833s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux
+[20.841s] -- Install configuration: ""
+[20.841s] -- Execute custom install script
+[20.842s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[20.852s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[20.862s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[20.870s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[20.879s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[20.888s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[20.896s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[20.907s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[20.915s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[20.925s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[20.933s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[20.942s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[20.951s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[20.960s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[20.968s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[20.977s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[20.986s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[20.995s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[21.005s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[21.014s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[21.022s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[21.031s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[21.042s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux
