@@ -1,0 +1,60 @@
+[0.230s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_console -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console
+[0.437s] -- The C compiler identification is GNU 13.3.0
+[1.208s] -- The CXX compiler identification is GNU 13.3.0
+[1.776s] -- Detecting C compiler ABI info
+[2.023s] -- Detecting C compiler ABI info - done
+[2.039s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.039s] -- Detecting C compile features
+[2.039s] -- Detecting C compile features - done
+[2.342s] -- Detecting CXX compiler ABI info
+[2.593s] -- Detecting CXX compiler ABI info - done
+[2.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.602s] -- Detecting CXX compile features
+[2.602s] -- Detecting CXX compile features - done
+[2.603s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.761s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.851s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.884s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[2.888s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[2.888s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.888s]   CMake.
+[2.888s] 
+[2.888s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.888s]   CMake that the project does not need compatibility with older versions.
+[2.888s] Call Stack (most recent call first):
+[2.888s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[2.888s]   CMakeLists.txt:17 (find_package)
+[2.888s] 
+[2.888s] [0m
+[2.890s] -- Found ecl_config: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake)
+[2.990s] -- Configuring done (2.7s)
+[2.996s] -- Generating done (0.0s)
+[2.998s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console
+[3.003s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_console -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console
+[3.004s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console -- -j16 -l16
+[3.038s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console -- -j16 -l16
+[3.039s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console
+[3.045s] -- Install configuration: ""
+[3.046s] -- Execute custom install script
+[3.047s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ament_index/resource_index/package_run_dependencies/ecl_console
+[3.055s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ament_index/resource_index/parent_prefix_path/ecl_console
+[3.062s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/environment/ament_prefix_path.sh
+[3.072s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/environment/ament_prefix_path.dsv
+[3.080s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/environment/path.sh
+[3.090s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/environment/path.dsv
+[3.098s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/local_setup.bash
+[3.106s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/local_setup.sh
+[3.113s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/local_setup.zsh
+[3.122s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/local_setup.dsv
+[3.129s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/package.dsv
+[3.138s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ament_index/resource_index/packages/ecl_console
+[3.146s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ament_cmake_export_targets-extras.cmake
+[3.154s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.162s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.172s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ecl_consoleConfig.cmake
+[3.179s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ecl_consoleConfig-version.cmake
+[3.188s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/package.xml
+[3.198s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/include/ecl
+[3.199s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/include/ecl/console.hpp
+[3.200s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_console/share/ecl_console/cmake/ecl_consoleExport.cmake
+[3.202s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_console

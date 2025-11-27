@@ -1,0 +1,7 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker_node.dir/rclcpp_components/node_main_kobuki_random_walker_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable kobuki_random_walker_node[0m
+[ 75%] Built target kobuki_random_walker_node
+gmake[2]: *** [CMakeFiles/kobuki_random_walker.dir/build.make:76: CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_random_walker.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

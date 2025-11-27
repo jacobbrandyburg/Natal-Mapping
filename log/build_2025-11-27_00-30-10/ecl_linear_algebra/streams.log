@@ -1,0 +1,20 @@
+[0.649s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_linear_algebra -- -j16 -l16
+[0.728s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.728s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.730s] [ 23%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_helpers.cpp.o[0m
+[0.730s] [ 30%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_interpolators.cpp.o[0m
+[1.681s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.749s] [ 38%] Built target gtest_main
+[4.334s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.392s] [ 46%] Built target gtest
+[5.307s] [ 53%] [32m[1mLinking CXX shared library libecl_linear_algebra.so[0m
+[5.732s] [ 53%] Built target ecl_linear_algebra
+[5.761s] [ 61%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_interpolators.dir/interpolators.cpp.o[0m
+[5.761s] [ 69%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_plugin.dir/plugin.cpp.o[0m
+[5.761s] [ 76%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_formatters.dir/formatters.cpp.o[0m
+[7.886s] [ 84%] [32m[1mLinking CXX executable ecl_test_linear_algebra_formatters[0m
+[7.913s] [ 92%] [32m[1mLinking CXX executable ecl_test_linear_algebra_plugin[0m
+[8.207s] [ 92%] Built target ecl_test_linear_algebra_formatters
+[8.224s] [ 92%] Built target ecl_test_linear_algebra_plugin
+[8.752s] [100%] [32m[1mLinking CXX executable ecl_test_linear_algebra_interpolators[0m
+[9.195s] [100%] Built target ecl_test_linear_algebra_interpolators

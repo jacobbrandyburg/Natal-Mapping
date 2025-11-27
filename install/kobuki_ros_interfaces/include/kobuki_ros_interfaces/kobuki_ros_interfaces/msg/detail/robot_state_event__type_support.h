@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.h

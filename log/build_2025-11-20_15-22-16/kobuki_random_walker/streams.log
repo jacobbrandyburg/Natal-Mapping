@@ -1,0 +1,48 @@
+[0.155s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces:/home/jacob/turtlebot2_ws/install/kobuki_ros:/home/jacob/turtlebot2_ws/install/kobuki_safety_controller:/home/jacob/turtlebot2_ws/install/kobuki_random_walker:/home/jacob/turtlebot2_ws/install/kobuki_node:/home/jacob/turtlebot2_ws/install/kobuki_keyop:/home/jacob/turtlebot2_ws/install/kobuki_bumper2pc:/home/jacob/turtlebot2_ws/install/kobuki_auto_docking:/home/jacob/turtlebot2_ws/install/kobuki_ros_interfaces:/home/jacob/turtlebot2_ws/install/kobuki_description:/home/jacob/turtlebot2_ws/install/kobuki_core:/home/jacob/turtlebot2_ws/install/ecl_core:/home/jacob/turtlebot2_ws/install/ecl_core_apps:/home/jacob/turtlebot2_ws/install/ecl_streams:/home/jacob/turtlebot2_ws/install/ecl_sigslots:/home/jacob/turtlebot2_ws/install/ecl_ipc:/home/jacob/turtlebot2_ws/install/ecl_devices:/home/jacob/turtlebot2_ws/install/ecl_threads:/home/jacob/turtlebot2_ws/install/ecl_mobile_robot:/home/jacob/turtlebot2_ws/install/ecl_manipulators:/home/jacob/turtlebot2_ws/install/ecl_geometry:/home/jacob/turtlebot2_ws/install/ecl_containers:/home/jacob/turtlebot2_ws/install/ecl_utilities:/home/jacob/turtlebot2_ws/install/ecl_statistics:/home/jacob/turtlebot2_ws/install/ecl_linear_algebra:/home/jacob/turtlebot2_ws/install/ecl_math:/home/jacob/turtlebot2_ws/install/ecl_formatters:/home/jacob/turtlebot2_ws/install/ecl_converters:/home/jacob/turtlebot2_ws/install/ecl_concepts:/home/jacob/turtlebot2_ws/install/ecl_type_traits:/home/jacob/turtlebot2_ws/install/ecl_time:/home/jacob/turtlebot2_ws/install/ecl_lite:/home/jacob/turtlebot2_ws/install/ecl_time_lite:/home/jacob/turtlebot2_ws/install/ecl_sigslots_lite:/home/jacob/turtlebot2_ws/install/ecl_mpl:/home/jacob/turtlebot2_ws/install/ecl_io:/home/jacob/turtlebot2_ws/install/ecl_filesystem:/home/jacob/turtlebot2_ws/install/ecl_exceptions:/home/jacob/turtlebot2_ws/install/ecl_errors:/home/jacob/turtlebot2_ws/install/ecl_eigen:/home/jacob/turtlebot2_ws/install/ecl_converters_lite:/home/jacob/turtlebot2_ws/install/ecl_console:/home/jacob/turtlebot2_ws/install/ecl_config:/home/jacob/turtlebot2_ws/install/ecl_command_line:/home/jacob/turtlebot2_ws/install/cmd_vel_mux:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_random_walker
+[0.746s] -- The C compiler identification is GNU 13.3.0
+[2.112s] -- The CXX compiler identification is GNU 13.3.0
+[4.002s] -- Detecting C compiler ABI info
+[5.920s] -- Detecting C compiler ABI info - done
+[5.968s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.980s] -- Detecting C compile features
+[5.981s] -- Detecting C compile features - done
+[6.630s] -- Detecting CXX compiler ABI info
+[8.652s] -- Detecting CXX compiler ABI info - done
+[8.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.706s] -- Detecting CXX compile features
+[8.706s] -- Detecting CXX compile features - done
+[8.961s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[10.299s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[10.692s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.253s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[11.985s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[12.106s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[12.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.845s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[13.223s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[13.562s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[13.594s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[14.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[15.004s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.855s] -- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[16.295s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[16.296s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[16.296s]   with modern CMake targets instead.  Try replacing this call with:
+[16.296s] 
+[16.296s]     target_link_libraries(kobuki_random_walker PUBLIC
+[16.296s]       ${geometry_msgs_TARGETS}
+[16.296s]       ${kobuki_ros_interfaces_TARGETS}
+[16.297s]       ${std_msgs_TARGETS}
+[16.297s]       rclcpp::rclcpp
+[16.297s]       rclcpp_components::component
+[16.297s]       rclcpp_components::component_manager
+[16.297s]     )
+[16.297s] 
+[16.297s] Call Stack (most recent call first):
+[16.298s]   CMakeLists.txt:26 (ament_target_dependencies)
+[16.298s] 
+[16.298s] [0m
+[17.067s] -- Configuring done (16.9s)
+[17.302s] -- Generating done (0.1s)
+[17.369s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_random_walker

@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/ament_cmake_core/orbbec_camera_msgsConfig.cmake

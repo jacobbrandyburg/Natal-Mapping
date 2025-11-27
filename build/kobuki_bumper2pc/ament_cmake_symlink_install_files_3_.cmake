@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_bumper2pc" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_bumper2pc/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/kobuki_bumper2pc/environment")

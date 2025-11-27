@@ -1,0 +1,438 @@
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(orbbec_camera PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:177 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(list_devices_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:185 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(list_depth_work_mode_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:186 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(list_camera_profile_mode_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:187 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(set_device_ip PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:188 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(topic_statistics_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:189 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(ob_benchmark_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:190 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(435le_example_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:191 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(service_benchmark_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:192 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(image_sync_example_node PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:171 (ament_target_dependencies)
+  CMakeLists.txt:193 (add_orbbec_executable)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(frame_latency PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:205 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(start_benchmark PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:212 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(multi_save_rgbir PUBLIC
+      ${builtin_interfaces_TARGETS}
+      ${diagnostic_msgs_TARGETS}
+      ${orbbec_camera_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${statistics_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${std_srvs_TARGETS}
+      ${tf2_msgs_TARGETS}
+      ament_index_cpp::ament_index_cpp
+      camera_calibration_parsers::camera_calibration_parsers
+      camera_info_manager::camera_info_manager
+      cv_bridge::cv_bridge
+      diagnostic_updater::diagnostic_updater
+      image_transport::image_transport
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+      tf2_sensor_msgs::tf2_sensor_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:221 (ament_target_dependencies)
+
+[0m

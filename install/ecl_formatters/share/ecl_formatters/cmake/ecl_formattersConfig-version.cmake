@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_formatters/ament_cmake_core/ecl_formattersConfig-version.cmake

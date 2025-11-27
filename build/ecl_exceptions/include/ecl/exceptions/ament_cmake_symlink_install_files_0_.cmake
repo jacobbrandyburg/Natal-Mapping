@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_exceptions/include/ecl/exceptions" FILES "data_exception.hpp" "exception.hpp" "macros.hpp" "posix_error_handler.hpp" "standard_exception.hpp" "DESTINATION" "include/ecl/exceptions")

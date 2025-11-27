@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_random_walker" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_random_walker/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/kobuki_random_walker")

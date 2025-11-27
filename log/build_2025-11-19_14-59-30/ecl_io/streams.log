@@ -1,0 +1,53 @@
+[0.148s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_io
+[0.360s] -- The C compiler identification is GNU 13.3.0
+[0.945s] -- The CXX compiler identification is GNU 13.3.0
+[1.545s] -- Detecting C compiler ABI info
+[1.809s] -- Detecting C compiler ABI info - done
+[1.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.817s] -- Detecting C compile features
+[1.817s] -- Detecting C compile features - done
+[1.940s] -- Detecting CXX compiler ABI info
+[2.251s] -- Detecting CXX compiler ABI info - done
+[2.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.264s] -- Detecting CXX compile features
+[2.264s] -- Detecting CXX compile features - done
+[2.267s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.439s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.555s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[2.560s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[2.560s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.560s]   CMake.
+[2.560s] 
+[2.561s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.561s]   CMake that the project does not need compatibility with older versions.
+[2.561s] Call Stack (most recent call first):
+[2.561s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[2.561s]   CMakeLists.txt:30 (find_package)
+[2.561s] 
+[2.561s] [0m
+[2.563s] -- Found ecl_config: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake)
+[2.565s] -- Found ecl_errors: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/share/ecl_errors/cmake)
+[2.687s] -- Configuring done (2.5s)
+[2.711s] -- Generating done (0.0s)
+[2.716s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io
+[2.725s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_io
+[2.726s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io -- -j16 -l16
+[2.777s] [ 10%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/sockets.cpp.o[0m
+[2.777s] [ 20%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/socketpair.cpp.o[0m
+[2.778s] [ 30%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/poll.cpp.o[0m
+[2.930s] In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io/src/lib/../../include/ecl/io/sockets.hpp:28[m[K,
+[2.930s]                  from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io/src/lib/../../include/ecl/io/poll.hpp:19[m[K,
+[2.930s]                  from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io/src/lib/poll.cpp:13[m[K:
+[2.930s] [01m[K/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/include/ecl/errors/handlers.hpp:73:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual void ecl::Error::[01;32m[Koperator=[m[K(const ecl::ErrorFlag&)[m[K’ was hidden [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Werror=overloaded-virtual=]8;;[m[K]
+[2.930s]    73 |         virtual void [01;31m[Koperator[m[K=(const ErrorFlag &error) { error_flag = error; }
+[2.930s]       |                      [01;31m[K^~~~~~~~[m[K
+[2.930s] [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io/src/lib/../../include/ecl/io/sockets.hpp:68:21:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kecl::SocketError::operator=[m[K’
+[2.930s]    68 | class ecl_io_PUBLIC [01;36m[KSocketError[m[K : public Error
+[2.930s]       |                     [01;36m[K^~~~~~~~~~~[m[K
+[2.958s] cc1plus: all warnings being treated as errors
+[2.961s] gmake[2]: *** [src/lib/CMakeFiles/ecl_io.dir/build.make:76: src/lib/CMakeFiles/ecl_io.dir/poll.cpp.o] Error 1
+[2.961s] gmake[2]: *** Waiting for unfinished jobs....
+[2.967s] gmake[1]: *** [CMakeFiles/Makefile2:237: src/lib/CMakeFiles/ecl_io.dir/all] Error 2
+[2.967s] gmake: *** [Makefile:146: all] Error 2
+[2.969s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io' returned '2': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_io -- -j16 -l16

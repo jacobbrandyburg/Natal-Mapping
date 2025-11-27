@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_devices/ament_cmake_environment_hooks/local_setup.bash

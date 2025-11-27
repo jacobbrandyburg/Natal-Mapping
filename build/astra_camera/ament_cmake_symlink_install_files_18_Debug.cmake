@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/ros2_astra_camera/astra_camera" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera/ament_cmake_core/astra_cameraConfig.cmake" "/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera/ament_cmake_core/astra_cameraConfig-version.cmake" "DESTINATION" "share/astra_camera/cmake")

@@ -1,0 +1,19 @@
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 23%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_helpers.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_interpolators.cpp.o[0m
+[ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 38%] Built target gtest_main
+[ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 46%] Built target gtest
+[ 53%] [32m[1mLinking CXX shared library libecl_linear_algebra.so[0m
+[ 53%] Built target ecl_linear_algebra
+[ 61%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_interpolators.dir/interpolators.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_plugin.dir/plugin.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_algebra_formatters.dir/formatters.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable ecl_test_linear_algebra_formatters[0m
+[ 92%] [32m[1mLinking CXX executable ecl_test_linear_algebra_plugin[0m
+[ 92%] Built target ecl_test_linear_algebra_formatters
+[ 92%] Built target ecl_test_linear_algebra_plugin
+[100%] [32m[1mLinking CXX executable ecl_test_linear_algebra_interpolators[0m
+[100%] Built target ecl_test_linear_algebra_interpolators

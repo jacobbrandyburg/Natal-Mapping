@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

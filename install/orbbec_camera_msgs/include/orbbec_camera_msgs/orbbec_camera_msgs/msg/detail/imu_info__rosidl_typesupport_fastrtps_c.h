@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h

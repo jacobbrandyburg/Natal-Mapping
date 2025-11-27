@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

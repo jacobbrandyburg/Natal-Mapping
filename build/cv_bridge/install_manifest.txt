@@ -1,0 +1,2 @@
+/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+/home/jacob/ROS2_WORKSPACES/Natal/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake

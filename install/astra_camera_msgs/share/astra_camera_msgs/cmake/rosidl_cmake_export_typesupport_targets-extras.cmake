@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

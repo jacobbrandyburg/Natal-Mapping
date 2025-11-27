@@ -1,0 +1,76 @@
+[0.034s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_mpl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl
+[0.398s] -- The C compiler identification is GNU 13.3.0
+[1.131s] -- The CXX compiler identification is GNU 13.3.0
+[1.667s] -- Detecting C compiler ABI info
+[1.847s] -- Detecting C compiler ABI info - done
+[1.855s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.893s] -- Detecting C compile features
+[1.894s] -- Detecting C compile features - done
+[1.962s] -- Detecting CXX compiler ABI info
+[2.158s] -- Detecting CXX compiler ABI info - done
+[2.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.166s] -- Detecting CXX compile features
+[2.166s] -- Detecting CXX compile features - done
+[2.180s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.338s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.470s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[2.479s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[2.479s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.479s]   CMake.
+[2.480s] 
+[2.480s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.480s]   CMake that the project does not need compatibility with older versions.
+[2.480s] Call Stack (most recent call first):
+[2.480s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[2.480s]   CMakeLists.txt:17 (find_package)
+[2.480s] 
+[2.480s] [0m
+[2.492s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.625s] -- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.809s] -- Found Threads: TRUE  
+[2.910s] -- Configuring done (2.8s)
+[2.924s] -- Generating done (0.0s)
+[2.932s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl
+[2.938s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_mpl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl
+[2.939s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl -- -j16 -l16
+[2.984s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.985s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.692s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.727s] [ 50%] Built target gtest_main
+[6.752s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.825s] [ 66%] Built target gtest
+[6.846s] [ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_enable_if.dir/enable_if.cpp.o[0m
+[7.526s] [100%] [32m[1mLinking CXX executable test_enable_if[0m
+[7.792s] [100%] Built target test_enable_if
+[7.809s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl -- -j16 -l16
+[7.809s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl
+[7.818s] -- Install configuration: ""
+[7.819s] -- Execute custom install script
+[7.820s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl/bool.hpp
+[7.829s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl/converters.hpp
+[7.837s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl/enable_if.hpp
+[7.847s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl/failed_object.hpp
+[7.855s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl/if.hpp
+[7.864s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/include/ecl/mpl.hpp
+[7.874s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl
+[7.883s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl
+[7.891s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh
+[7.900s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv
+[7.908s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/environment/path.sh
+[7.916s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/environment/path.dsv
+[7.925s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/local_setup.bash
+[7.933s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/local_setup.sh
+[7.941s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/local_setup.zsh
+[7.949s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/local_setup.dsv
+[7.958s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/package.dsv
+[7.967s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl
+[7.975s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake
+[7.984s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.998s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake
+[8.010s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake
+[8.020s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/package.xml
+[8.033s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake
+[8.034s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mpl

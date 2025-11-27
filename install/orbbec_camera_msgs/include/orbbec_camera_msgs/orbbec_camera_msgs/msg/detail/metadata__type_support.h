@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_generator_c/orbbec_camera_msgs/msg/detail/metadata__type_support.h

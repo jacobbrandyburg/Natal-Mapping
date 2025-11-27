@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/image_geometry/ament_cmake_environment_hooks/local_setup.sh
