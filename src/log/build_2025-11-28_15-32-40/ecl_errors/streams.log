@@ -1,0 +1,77 @@
+[0.128s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_errors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors
+[0.310s] -- The C compiler identification is GNU 13.3.0
+[0.969s] -- The CXX compiler identification is GNU 13.3.0
+[1.265s] -- Detecting C compiler ABI info
+[1.468s] -- Detecting C compiler ABI info - done
+[1.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.476s] -- Detecting C compile features
+[1.476s] -- Detecting C compile features - done
+[1.543s] -- Detecting CXX compiler ABI info
+[1.765s] -- Detecting CXX compiler ABI info - done
+[1.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.774s] -- Detecting CXX compile features
+[1.775s] -- Detecting CXX compile features - done
+[1.779s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[1.942s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.025s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.075s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[2.079s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[2.079s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.079s]   CMake.
+[2.079s] 
+[2.079s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.079s]   CMake that the project does not need compatibility with older versions.
+[2.079s] Call Stack (most recent call first):
+[2.079s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[2.079s]   CMakeLists.txt:17 (find_package)
+[2.080s] 
+[2.080s] [0m
+[2.081s] -- Found ecl_config: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/share/ecl_config/cmake)
+[2.189s] -- Configuring done (2.1s)
+[2.199s] -- Generating done (0.0s)
+[2.202s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors
+[2.211s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_errors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors
+[2.212s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors -- -j16 -l16
+[2.265s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_errors.dir/run_time_functions.cpp.o[0m
+[2.318s] [ 50%] [32m[1mLinking CXX shared library libecl_errors.so[0m
+[2.477s] [ 50%] Built target ecl_errors
+[2.498s] [ 75%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_errors_example_errors.dir/errors.cpp.o[0m
+[2.705s] [100%] [32m[1mLinking CXX executable demo_errors[0m
+[2.877s] [100%] Built target ecl_errors_example_errors
+[2.889s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors -- -j16 -l16
+[2.890s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors
+[2.899s] -- Install configuration: ""
+[2.899s] -- Execute custom install script
+[2.900s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors/compile_time_assert.hpp
+[2.910s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors/flags.hpp
+[2.920s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors/handlers.hpp
+[2.932s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors/macros.hpp
+[2.940s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors/run_time_functions.hpp
+[2.949s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/include/ecl/errors.hpp
+[2.960s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib/ecl_errors/demo_errors
+[2.970s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/library_path.sh
+[2.983s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/library_path.dsv
+[2.994s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ament_index/resource_index/package_run_dependencies/ecl_errors
+[3.008s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ament_index/resource_index/parent_prefix_path/ecl_errors
+[3.018s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/ament_prefix_path.sh
+[3.031s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/ament_prefix_path.dsv
+[3.041s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/path.sh
+[3.052s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/environment/path.dsv
+[3.061s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/local_setup.bash
+[3.072s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/local_setup.sh
+[3.086s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/local_setup.zsh
+[3.097s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/local_setup.dsv
+[3.107s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/package.dsv
+[3.119s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ament_index/resource_index/packages/ecl_errors
+[3.128s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_targets-extras.cmake
+[3.137s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.149s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_libraries-extras.cmake
+[3.158s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.167s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsConfig.cmake
+[3.178s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsConfig-version.cmake
+[3.188s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/package.xml
+[3.200s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsExport.cmake
+[3.200s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsExport-noconfig.cmake
+[3.200s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib/libecl_errors.so.1.2.0
+[3.201s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib/libecl_errors.so
+[3.204s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_errors

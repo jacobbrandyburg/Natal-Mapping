@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.001026] (-) JobUnselected: {'identifier': 'cmd_vel_mux'}
+[0.001068] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001083] (-) JobUnselected: {'identifier': 'ecl_command_line'}
+[0.001111] (-) JobUnselected: {'identifier': 'ecl_concepts'}
+[0.001122] (-) JobUnselected: {'identifier': 'ecl_config'}
+[0.001131] (-) JobUnselected: {'identifier': 'ecl_console'}
+[0.001138] (-) JobUnselected: {'identifier': 'ecl_containers'}
+[0.001145] (-) JobUnselected: {'identifier': 'ecl_converters'}
+[0.001152] (-) JobUnselected: {'identifier': 'ecl_converters_lite'}
+[0.001159] (-) JobUnselected: {'identifier': 'ecl_core'}
+[0.001167] (-) JobUnselected: {'identifier': 'ecl_core_apps'}
+[0.001174] (-) JobUnselected: {'identifier': 'ecl_devices'}
+[0.001182] (-) JobUnselected: {'identifier': 'ecl_eigen'}
+[0.001188] (-) JobUnselected: {'identifier': 'ecl_errors'}
+[0.001195] (-) JobUnselected: {'identifier': 'ecl_exceptions'}
+[0.001201] (-) JobUnselected: {'identifier': 'ecl_filesystem'}
+[0.001208] (-) JobUnselected: {'identifier': 'ecl_formatters'}
+[0.001262] (-) JobUnselected: {'identifier': 'ecl_geometry'}
+[0.001291] (-) JobUnselected: {'identifier': 'ecl_io'}
+[0.001325] (-) JobUnselected: {'identifier': 'ecl_ipc'}
+[0.001352] (-) JobUnselected: {'identifier': 'ecl_linear_algebra'}
+[0.001380] (-) JobUnselected: {'identifier': 'ecl_lite'}
+[0.001408] (-) JobUnselected: {'identifier': 'ecl_manipulators'}
+[0.001435] (-) JobUnselected: {'identifier': 'ecl_math'}
+[0.001462] (-) JobUnselected: {'identifier': 'ecl_mobile_robot'}
+[0.001490] (-) JobUnselected: {'identifier': 'ecl_mpl'}
+[0.001518] (-) JobUnselected: {'identifier': 'ecl_sigslots'}
+[0.001545] (-) JobUnselected: {'identifier': 'ecl_sigslots_lite'}
+[0.001573] (-) JobUnselected: {'identifier': 'ecl_statistics'}
+[0.001600] (-) JobUnselected: {'identifier': 'ecl_streams'}
+[0.001627] (-) JobUnselected: {'identifier': 'ecl_threads'}
+[0.001659] (-) JobUnselected: {'identifier': 'ecl_time'}
+[0.001686] (-) JobUnselected: {'identifier': 'ecl_time_lite'}
+[0.001713] (-) JobUnselected: {'identifier': 'ecl_type_traits'}
+[0.001740] (-) JobUnselected: {'identifier': 'ecl_utilities'}
+[0.001766] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001793] (-) JobUnselected: {'identifier': 'kobuki_auto_docking'}
+[0.001821] (-) JobUnselected: {'identifier': 'kobuki_bumper2pc'}
+[0.001848] (-) JobUnselected: {'identifier': 'kobuki_description'}
+[0.001875] (-) JobUnselected: {'identifier': 'kobuki_keyop'}
+[0.001901] (-) JobUnselected: {'identifier': 'kobuki_node'}
+[0.001928] (-) JobUnselected: {'identifier': 'kobuki_random_walker'}
+[0.001955] (-) JobUnselected: {'identifier': 'kobuki_ros'}
+[0.001984] (-) JobUnselected: {'identifier': 'kobuki_ros_interfaces'}
+[0.002011] (-) JobUnselected: {'identifier': 'kobuki_safety_controller'}
+[0.002054] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002064] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002078] (kobuki_core) JobQueued: {'identifier': 'kobuki_core', 'dependencies': OrderedDict({'ecl_command_line': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line', 'ecl_config': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config', 'ecl_eigen': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen', 'ecl_mpl': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl', 'ecl_console': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_console', 'ecl_errors': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors', 'ecl_type_traits': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits', 'ecl_concepts': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts', 'ecl_exceptions': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions', 'ecl_math': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math', 'ecl_time_lite': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_time_lite', 'ecl_converters': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters', 'ecl_time': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_time', 'ecl_utilities': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities', 'ecl_formatters': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters', 'ecl_threads': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_threads', 'ecl_containers': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers', 'ecl_linear_algebra': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra', 'ecl_sigslots': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_sigslots', 'ecl_devices': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_devices', 'ecl_geometry': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry', 'ecl_mobile_robot': '/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mobile_robot'})}
+[0.002138] (kobuki_core) JobStarted: {'identifier': 'kobuki_core'}
+[0.013151] (kobuki_core) JobEnded: {'identifier': 'kobuki_core', 'rc': 1}
+[0.023576] (-) EventReactorShutdown: {}

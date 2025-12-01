@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ecl_converters_liteExport.cmake

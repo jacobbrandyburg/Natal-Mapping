@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mobile_robot/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,171 @@
+[0.425s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry
+[0.538s] -- The C compiler identification is GNU 13.3.0
+[1.060s] -- The CXX compiler identification is GNU 13.3.0
+[1.567s] -- Detecting C compiler ABI info
+[1.894s] -- Detecting C compiler ABI info - done
+[1.906s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.906s] -- Detecting C compile features
+[1.907s] -- Detecting C compile features - done
+[2.061s] -- Detecting CXX compiler ABI info
+[2.324s] -- Detecting CXX compiler ABI info - done
+[2.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.332s] -- Detecting CXX compile features
+[2.332s] -- Detecting CXX compile features - done
+[2.337s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.491s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.611s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[2.614s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[2.614s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[2.614s]   CMake.
+[2.614s] 
+[2.614s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.614s]   CMake that the project does not need compatibility with older versions.
+[2.614s] Call Stack (most recent call first):
+[2.614s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[2.614s]   CMakeLists.txt:20 (find_package)
+[2.614s] 
+[2.615s] [0m
+[2.616s] -- Found ecl_config: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/share/ecl_config/cmake)
+[2.618s] -- Found ecl_containers: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers/share/ecl_containers/cmake)
+[2.640s] -- Found ecl_linear_algebra: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake)
+[3.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.536s] -- Found Threads: TRUE  
+[8.811s] -- Found AMD headers in: /usr/include/suitesparse
+[8.870s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[8.898s] -- Found CAMD headers in: /usr/include/suitesparse
+[8.931s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[8.971s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[9.007s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[9.031s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[9.058s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[9.085s] -- Found COLAMD headers in: /usr/include/suitesparse
+[9.112s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[9.131s] -- Found SPQR headers in: /usr/include/suitesparse
+[9.158s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[9.184s] -- Found Config headers in: /usr/include/suitesparse
+[9.211s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[9.215s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[9.216s] -- Looking for shm_open in rt
+[9.332s] -- Looking for shm_open in rt - found
+[9.333s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[9.469s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[9.614s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[9.650s] -- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.680s] -- Configuring done (9.2s)
+[9.721s] -- Generating done (0.0s)
+[9.733s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry
+[9.745s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry
+[9.746s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry -- -j16 -l16
+[9.796s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.798s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.798s] [  6%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/linear_segment.cpp.o[0m
+[9.798s] [  9%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pascals_triangle.cpp.o[0m
+[9.801s] [ 11%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/odometry_helper.cpp.o[0m
+[9.804s] [ 13%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline.cpp.o[0m
+[9.804s] [ 15%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial.cpp.o[0m
+[9.805s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline_blueprints.cpp.o[0m
+[9.805s] [ 20%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pose2d.cpp.o[0m
+[9.805s] [ 22%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial_blueprints.cpp.o[0m
+[9.805s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/angle.cpp.o[0m
+[9.814s] [ 27%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/smooth_linear_spline.cpp.o[0m
+[9.816s] [ 29%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_function.cpp.o[0m
+[9.821s] [ 31%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline.cpp.o[0m
+[9.826s] [ 34%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline_blueprints.cpp.o[0m
+[10.840s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.903s] [ 36%] Built target gtest_main
+[13.531s] [ 38%] [32m[1mLinking CXX shared library libecl_geometry.so[0m
+[13.852s] [ 38%] Built target ecl_geometry
+[14.064s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[14.130s] [ 40%] Built target gtest
+[14.166s] [ 43%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_angles.dir/angles.cpp.o[0m
+[14.166s] [ 45%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_cubic_splines.dir/cubic_splines.cpp.o[0m
+[14.167s] [ 47%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_cartesian_points.dir/cartesian_points.cpp.o[0m
+[14.167s] [ 50%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_homogeneous_points.dir/homogeneous_points.cpp.o[0m
+[14.169s] [ 52%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_polynomials.dir/polynomials.cpp.o[0m
+[14.170s] [ 54%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_linear_segment.dir/linear_segment.cpp.o[0m
+[14.170s] [ 56%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_pose2d.dir/pose2d.cpp.o[0m
+[14.170s] [ 59%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_tension_splines.dir/tension_splines.cpp.o[0m
+[14.170s] [ 61%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_smooth_linear_splines.dir/smooth_linear_splines.cpp.o[0m
+[14.171s] [ 63%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_legacy_pose2d.dir/legacy_pose2d.cpp.o[0m
+[14.173s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_odometry_helper.dir/odometry_helper.cpp.o[0m
+[14.173s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_legacy_pose3d.dir/legacy_pose3d.cpp.o[0m
+[14.174s] [ 70%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_tension_function.dir/tension_function.cpp.o[0m
+[15.848s] [ 72%] [32m[1mLinking CXX executable ecl_test_linear_segment[0m
+[15.962s] [ 75%] [32m[1mLinking CXX executable ecl_test_tension_function[0m
+[16.006s] [ 77%] [32m[1mLinking CXX executable ecl_test_tension_splines[0m
+[16.203s] [ 77%] Built target ecl_test_linear_segment
+[16.277s] [ 77%] Built target ecl_test_tension_function
+[16.346s] [ 77%] Built target ecl_test_tension_splines
+[18.036s] [ 79%] [32m[1mLinking CXX executable ecl_test_angles[0m
+[18.043s] [ 81%] [32m[1mLinking CXX executable ecl_test_smooth_linear_splines[0m
+[18.155s] [ 84%] [32m[1mLinking CXX executable ecl_test_cartesian_points[0m
+[18.156s] [ 86%] [32m[1mLinking CXX executable ecl_test_pose2d[0m
+[18.164s] [ 88%] [32m[1mLinking CXX executable ecl_test_cubic_splines[0m
+[18.283s] [ 88%] Built target ecl_test_smooth_linear_splines
+[18.289s] [ 88%] Built target ecl_test_angles
+[18.342s] [ 90%] [32m[1mLinking CXX executable ecl_test_homogeneous_points[0m
+[18.398s] [ 90%] Built target ecl_test_pose2d
+[18.414s] [ 90%] Built target ecl_test_cartesian_points
+[18.449s] [ 93%] [32m[1mLinking CXX executable ecl_test_polynomials[0m
+[18.478s] [ 95%] [32m[1mLinking CXX executable ecl_test_odometry_helper[0m
+[18.485s] [ 95%] Built target ecl_test_cubic_splines
+[18.632s] [ 95%] Built target ecl_test_homogeneous_points
+[18.745s] [ 95%] Built target ecl_test_polynomials
+[18.753s] [ 97%] [32m[1mLinking CXX executable ecl_test_legacy_pose2d[0m
+[18.773s] [ 97%] Built target ecl_test_odometry_helper
+[19.078s] [ 97%] Built target ecl_test_legacy_pose2d
+[19.748s] [100%] [32m[1mLinking CXX executable ecl_test_legacy_pose3d[0m
+[19.961s] [100%] Built target ecl_test_legacy_pose3d
+[19.980s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry -- -j16 -l16
+[19.982s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry
+[19.991s] -- Install configuration: ""
+[19.992s] -- Execute custom install script
+[19.993s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/angle.hpp
+[20.004s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/cartesian_point.hpp
+[20.014s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/cubic_spline.hpp
+[20.024s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/function_math.hpp
+[20.034s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/homogeneous_point.hpp
+[20.044s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/legacy_pose2d.hpp
+[20.054s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/legacy_pose3d.hpp
+[20.064s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/linear_segment.hpp
+[20.073s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/macros.hpp
+[20.082s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/odometry.hpp
+[20.091s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/odometry_helper.hpp
+[20.100s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/odometry_typedefs.hpp
+[20.109s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/pascals_triangle.hpp
+[20.118s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/polynomial.hpp
+[20.127s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/pose2d.hpp
+[20.137s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/smooth_linear_spline.hpp
+[20.147s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/spline_function.hpp
+[20.156s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/tension_function.hpp
+[20.165s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry/tension_spline.hpp
+[20.174s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/include/ecl/geometry.hpp
+[20.184s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/library_path.sh
+[20.193s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/library_path.dsv
+[20.203s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ament_index/resource_index/package_run_dependencies/ecl_geometry
+[20.213s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ament_index/resource_index/parent_prefix_path/ecl_geometry
+[20.222s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/ament_prefix_path.sh
+[20.231s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/ament_prefix_path.dsv
+[20.241s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/path.sh
+[20.251s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/environment/path.dsv
+[20.260s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/local_setup.bash
+[20.270s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/local_setup.sh
+[20.279s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/local_setup.zsh
+[20.288s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/local_setup.dsv
+[20.296s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/package.dsv
+[20.305s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ament_index/resource_index/packages/ecl_geometry
+[20.315s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[20.324s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.333s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[20.343s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.353s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryConfig.cmake
+[20.363s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryConfig-version.cmake
+[20.372s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/package.xml
+[20.381s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryExport.cmake
+[20.381s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake/ecl_geometryExport-noconfig.cmake
+[20.382s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/lib/libecl_geometry.so.1.2.1
+[20.383s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/lib/libecl_geometry.so.1.2.1" to ""
+[20.383s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/lib/libecl_geometry.so
+[20.386s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_containers:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_utilities:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_converters:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_math:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_concepts:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_mpl:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_eigen:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_linear_algebra/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_formatters/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/lib:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_type_traits/bin:/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_geometry

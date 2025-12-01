@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_type_traits/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

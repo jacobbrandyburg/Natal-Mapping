@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_lite" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_lite/ament_cmake_core/ecl_liteConfig.cmake" "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_lite/ament_cmake_core/ecl_liteConfig-version.cmake" "DESTINATION" "share/ecl_lite/cmake")

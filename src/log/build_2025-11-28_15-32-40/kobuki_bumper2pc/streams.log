@@ -1,0 +1,83 @@
+[0.120s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc
+[0.240s] -- The C compiler identification is GNU 13.3.0
+[1.147s] -- The CXX compiler identification is GNU 13.3.0
+[1.969s] -- Detecting C compiler ABI info
+[2.306s] -- Detecting C compiler ABI info - done
+[2.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.313s] -- Detecting C compile features
+[2.313s] -- Detecting C compile features - done
+[2.386s] -- Detecting CXX compiler ABI info
+[2.604s] -- Detecting CXX compiler ABI info - done
+[2.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.613s] -- Detecting CXX compile features
+[2.614s] -- Detecting CXX compile features - done
+[2.618s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.785s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.877s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.940s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[3.191s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.215s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.428s] -- Found rcl_interfaces: 2.3.0 (/opt/ros/kilted/share/rcl_interfaces/cmake)
+[3.460s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.499s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.505s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[3.642s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.910s] -- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[3.961s] -- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[4.006s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[4.006s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[4.006s]   with modern CMake targets instead.  Try replacing this call with:
+[4.006s] 
+[4.006s]     target_link_libraries(kobuki_bumper2pc PUBLIC
+[4.006s]       ${kobuki_ros_interfaces_TARGETS}
+[4.007s]       ${rcl_interfaces_TARGETS}
+[4.007s]       ${sensor_msgs_TARGETS}
+[4.007s]       rclcpp::rclcpp
+[4.007s]       rclcpp_components::component
+[4.007s]       rclcpp_components::component_manager
+[4.007s]       sensor_msgs::sensor_msgs_library
+[4.007s]     )
+[4.007s] 
+[4.007s] Call Stack (most recent call first):
+[4.007s]   CMakeLists.txt:26 (ament_target_dependencies)
+[4.007s] 
+[4.007s] [0m
+[4.109s] -- Configuring done (4.0s)
+[4.127s] -- Generating done (0.0s)
+[4.132s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc
+[4.143s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_bumper2pc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc
+[4.144s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc -- -j16 -l16
+[4.207s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[4.209s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[9.815s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[10.102s] [ 75%] Built target kobuki_bumper2pc_node
+[17.161s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[17.824s] [100%] Built target kobuki_bumper2pc
+[17.840s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc -- -j16 -l16
+[17.841s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc
+[17.856s] -- Install configuration: ""
+[17.856s] -- Execute custom install script
+[17.858s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[17.869s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[17.880s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[17.891s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[17.906s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[17.917s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[17.928s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[17.939s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[17.952s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[17.966s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[17.980s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[17.991s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[18.000s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[18.012s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[18.022s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[18.033s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[18.046s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[18.058s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[18.070s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[18.084s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[18.096s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc

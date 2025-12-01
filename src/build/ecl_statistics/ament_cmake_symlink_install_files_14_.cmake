@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_statistics" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_statistics/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ecl_statistics")

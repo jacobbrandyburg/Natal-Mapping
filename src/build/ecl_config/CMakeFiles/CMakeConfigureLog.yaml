@@ -1,0 +1,1314 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6795/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d6795.dir/build.make CMakeFiles/cmTC_d6795.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf'
+        Building C object CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d6795.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIVa5F7.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o /tmp/ccIVa5F7.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d6795
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6795.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -o cmTC_d6795 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6795' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6795.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hye4y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d6795 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6795' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6795.'
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d6795/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d6795.dir/build.make CMakeFiles/cmTC_d6795.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-oe2Znf']
+        ignore line: [Building C object CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d6795.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIVa5F7.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o /tmp/ccIVa5F7.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d6795]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6795.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -o cmTC_d6795 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6795' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6795.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hye4y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d6795 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0hye4y.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d6795] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_d6795.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e96bf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e96bf.dir/build.make CMakeFiles/cmTC_e96bf.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ'
+        Building CXX object CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e96bf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRNnrGL.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRNnrGL.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e96bf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96bf.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e96bf 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e96bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e96bf.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYmbPxX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e96bf /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e96bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e96bf.'
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e96bf/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e96bf.dir/build.make CMakeFiles/cmTC_e96bf.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zP5oBQ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e96bf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRNnrGL.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRNnrGL.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e96bf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96bf.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e96bf ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e96bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e96bf.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYmbPxX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e96bf /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYmbPxX.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e96bf] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_e96bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:147 (check_symbol_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for _POSIX_VERSION"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "PLATFORM_IS_POSIX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cd35f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cd35f.dir/build.make CMakeFiles/cmTC_cd35f.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc'
+        Building C object CMakeFiles/cmTC_cd35f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_cd35f.dir/CheckSymbolExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc/CheckSymbolExists.c
+        Linking C executable cmTC_cd35f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd35f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cd35f.dir/CheckSymbolExists.c.o -o cmTC_cd35f 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-nH1ACc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:150 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for realpath in rt"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_REALPATH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0cc45/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0cc45.dir/build.make CMakeFiles/cmTC_0cc45.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI'
+        Building C object CMakeFiles/cmTC_0cc45.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath -o CMakeFiles/cmTC_0cc45.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI/CheckFunctionExists.c
+        Linking C executable cmTC_0cc45
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cc45.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realpath CMakeFiles/cmTC_0cc45.dir/CheckFunctionExists.c.o -o cmTC_0cc45  -lrt 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-KSAZzI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:151 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for clock_nanosleep in rt"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_NANOSLEEP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8bfc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8bfc.dir/build.make CMakeFiles/cmTC_d8bfc.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU'
+        Building C object CMakeFiles/cmTC_d8bfc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep -o CMakeFiles/cmTC_d8bfc.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU/CheckFunctionExists.c
+        Linking C executable cmTC_d8bfc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8bfc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_nanosleep CMakeFiles/cmTC_d8bfc.dir/CheckFunctionExists.c.o -o cmTC_d8bfc  -lrt 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zBrYoU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:152 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8332c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8332c.dir/build.make CMakeFiles/cmTC_8332c.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1'
+        Building C object CMakeFiles/cmTC_8332c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_8332c.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1/CheckFunctionExists.c
+        Linking C executable cmTC_8332c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8332c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_8332c.dir/CheckFunctionExists.c.o -o cmTC_8332c  -lrt 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-rIMYh1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:153 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for pthread_mutex_timedlock in pthread"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_MUTEX_TIMEDLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd687/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fd687.dir/build.make CMakeFiles/cmTC_fd687.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH'
+        Building C object CMakeFiles/cmTC_fd687.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock -o CMakeFiles/cmTC_fd687.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH/CheckFunctionExists.c
+        Linking C executable cmTC_fd687
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd687.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock CMakeFiles/cmTC_fd687.dir/CheckFunctionExists.c.o -o cmTC_fd687  -lpthread 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xE2vjH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:154 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for nanosleep in pthread"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_NANOSLEEP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21746/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_21746.dir/build.make CMakeFiles/cmTC_21746.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm'
+        Building C object CMakeFiles/cmTC_21746.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep -o CMakeFiles/cmTC_21746.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm/CheckFunctionExists.c
+        Linking C executable cmTC_21746
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21746.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep CMakeFiles/cmTC_21746.dir/CheckFunctionExists.c.o -o cmTC_21746  -lpthread 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-juxpcm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:155 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SHM_OPEN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8755/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8755.dir/build.make CMakeFiles/cmTC_c8755.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx'
+        Building C object CMakeFiles/cmTC_c8755.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_c8755.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx/CheckFunctionExists.c
+        Linking C executable cmTC_c8755
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8755.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_c8755.dir/CheckFunctionExists.c.o -o cmTC_c8755  -lrt 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-soTemx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:156 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sched_setscheduler in pthread"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SCHED_SETSCHEDULER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e53fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e53fc.dir/build.make CMakeFiles/cmTC_e53fc.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy'
+        Building C object CMakeFiles/cmTC_e53fc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sched_setscheduler -o CMakeFiles/cmTC_e53fc.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy/CheckFunctionExists.c
+        Linking C executable cmTC_e53fc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e53fc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sched_setscheduler CMakeFiles/cmTC_e53fc.dir/CheckFunctionExists.c.o -o cmTC_e53fc  -lpthread 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ireHOy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:157 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sem_timedwait in pthread"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SEM_TIMEDWAIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90db7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_90db7.dir/build.make CMakeFiles/cmTC_90db7.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI'
+        Building C object CMakeFiles/cmTC_90db7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_timedwait -o CMakeFiles/cmTC_90db7.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI/CheckFunctionExists.c
+        Linking C executable cmTC_90db7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90db7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_timedwait CMakeFiles/cmTC_90db7.dir/CheckFunctionExists.c.o -o cmTC_90db7  -lpthread 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-BXMOYI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:158 (check_library_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sem_init in pthread"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_SEM_INIT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_906db/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_906db.dir/build.make CMakeFiles/cmTC_906db.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F'
+        Building C object CMakeFiles/cmTC_906db.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_init -o CMakeFiles/cmTC_906db.dir/CheckFunctionExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F/CheckFunctionExists.c
+        Linking C executable cmTC_906db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_906db.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_init CMakeFiles/cmTC_906db.dir/CheckFunctionExists.c.o -o cmTC_906db  -lpthread 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-esVn1F'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:159 (check_symbol_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for CLOCK_MONOTONIC"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CLOCK_MONOTONIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4345c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4345c.dir/build.make CMakeFiles/cmTC_4345c.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm'
+        Building C object CMakeFiles/cmTC_4345c.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4345c.dir/CheckSymbolExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm/CheckSymbolExists.c
+        Linking C executable cmTC_4345c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4345c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4345c.dir/CheckSymbolExists.c.o -o cmTC_4345c 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zFQ7jm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:160 (check_symbol_exists)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:506 (ecl_detect_posix)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for CLOCK_PROCESS_CPUTIME_ID"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "POSIX_HAS_CPUTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87929/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_87929.dir/build.make CMakeFiles/cmTC_87929.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp'
+        Building C object CMakeFiles/cmTC_87929.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_87929.dir/CheckSymbolExists.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp/CheckSymbolExists.c
+        Linking C executable cmTC_87929
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87929.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_87929.dir/CheckSymbolExists.c.o -o cmTC_87929 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-3z1TWp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:507 (ecl_detect_threads)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b35bc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b35bc.dir/build.make CMakeFiles/cmTC_b35bc.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W'
+        Building C object CMakeFiles/cmTC_b35bc.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b35bc.dir/src.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W/src.c
+        Linking C executable cmTC_b35bc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35bc.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b35bc.dir/src.c.o -o cmTC_b35bc 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-D2Uo8W'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09ab2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09ab2.dir/build.make CMakeFiles/cmTC_09ab2.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy'
+        Building C object CMakeFiles/cmTC_09ab2.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_09ab2.dir/CheckIncludeFile.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy/CheckIncludeFile.c
+        Linking C executable cmTC_09ab2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09ab2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_09ab2.dir/CheckIncludeFile.c.o -o cmTC_09ab2 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-ygHnWy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_625c3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_625c3.dir/build.make CMakeFiles/cmTC_625c3.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV'
+        Building C object CMakeFiles/cmTC_625c3.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_625c3.dir/CheckIncludeFile.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV/CheckIncludeFile.c
+        Linking C executable cmTC_625c3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625c3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_625c3.dir/CheckIncludeFile.c.o -o cmTC_625c3 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-4UtIzV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc70a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bc70a.dir/build.make CMakeFiles/cmTC_bc70a.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x'
+        Building C object CMakeFiles/cmTC_bc70a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_bc70a.dir/CheckIncludeFile.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x/CheckIncludeFile.c
+        Linking C executable cmTC_bc70a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc70a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bc70a.dir/CheckIncludeFile.c.o -o cmTC_bc70a 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Ya8p3x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:317 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of char"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3c5bf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3c5bf.dir/build.make CMakeFiles/cmTC_3c5bf.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut'
+        Building C object CMakeFiles/cmTC_3c5bf.dir/PLATFORM_SIZE_OF_CHAR.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3c5bf.dir/PLATFORM_SIZE_OF_CHAR.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut/PLATFORM_SIZE_OF_CHAR.c
+        Linking C executable cmTC_3c5bf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c5bf.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3c5bf.dir/PLATFORM_SIZE_OF_CHAR.c.o -o cmTC_3c5bf 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-MKQVut'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:318 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebbbf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ebbbf.dir/build.make CMakeFiles/cmTC_ebbbf.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi'
+        Building C object CMakeFiles/cmTC_ebbbf.dir/PLATFORM_SIZE_OF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ebbbf.dir/PLATFORM_SIZE_OF_SHORT.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi/PLATFORM_SIZE_OF_SHORT.c
+        Linking C executable cmTC_ebbbf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebbbf.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ebbbf.dir/PLATFORM_SIZE_OF_SHORT.c.o -o cmTC_ebbbf 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-yd9dAi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:319 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cc7f1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cc7f1.dir/build.make CMakeFiles/cmTC_cc7f1.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj'
+        Building C object CMakeFiles/cmTC_cc7f1.dir/PLATFORM_SIZE_OF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_cc7f1.dir/PLATFORM_SIZE_OF_INT.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj/PLATFORM_SIZE_OF_INT.c
+        Linking C executable cmTC_cc7f1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc7f1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cc7f1.dir/PLATFORM_SIZE_OF_INT.c.o -o cmTC_cc7f1 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-xGnOSj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:320 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96470/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_96470.dir/build.make CMakeFiles/cmTC_96470.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP'
+        Building C object CMakeFiles/cmTC_96470.dir/PLATFORM_SIZE_OF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_96470.dir/PLATFORM_SIZE_OF_LONG.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP/PLATFORM_SIZE_OF_LONG.c
+        Linking C executable cmTC_96470
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96470.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_96470.dir/PLATFORM_SIZE_OF_LONG.c.o -o cmTC_96470 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-UVMVHP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:321 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_876d9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_876d9.dir/build.make CMakeFiles/cmTC_876d9.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM'
+        Building C object CMakeFiles/cmTC_876d9.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_876d9.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM/PLATFORM_SIZE_OF_LONG_LONG.c
+        Linking C executable cmTC_876d9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_876d9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_876d9.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -o cmTC_876d9 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-InXDqM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:322 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of float"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25b59/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_25b59.dir/build.make CMakeFiles/cmTC_25b59.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm'
+        Building C object CMakeFiles/cmTC_25b59.dir/PLATFORM_SIZE_OF_FLOAT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_25b59.dir/PLATFORM_SIZE_OF_FLOAT.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm/PLATFORM_SIZE_OF_FLOAT.c
+        Linking C executable cmTC_25b59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b59.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_25b59.dir/PLATFORM_SIZE_OF_FLOAT.c.o -o cmTC_25b59 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-c8uMVm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:323 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of double"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19e27/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_19e27.dir/build.make CMakeFiles/cmTC_19e27.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ'
+        Building C object CMakeFiles/cmTC_19e27.dir/PLATFORM_SIZE_OF_DOUBLE.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_19e27.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ/PLATFORM_SIZE_OF_DOUBLE.c
+        Linking C executable cmTC_19e27
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e27.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_19e27.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -o cmTC_19e27 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-zykdGQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:324 (CHECK_TYPE_SIZE)"
+      - "/opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:509 (ecl_detect_sizes)"
+      - "CMakeLists.txt:27 (ecl_detect_platform)"
+    checks:
+      - "Check size of long double"
+    directories:
+      source: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ"
+      binary: "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_PLATFORM_SIZE_OF_LONG_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd1a0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bd1a0.dir/build.make CMakeFiles/cmTC_bd1a0.dir/build
+        gmake[1]: Entering directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ'
+        Building C object CMakeFiles/cmTC_bd1a0.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_bd1a0.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -c /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ/PLATFORM_SIZE_OF_LONG_DOUBLE.c
+        Linking C executable cmTC_bd1a0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd1a0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bd1a0.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -o cmTC_bd1a0 
+        gmake[1]: Leaving directory '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_config/CMakeFiles/CMakeScratch/TryCompile-Q6QrZZ'
+        
+      exitCode: 0
+...

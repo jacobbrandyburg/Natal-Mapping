@@ -1,0 +1,62 @@
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FindThreads.cmake:226 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(kobuki_ros PUBLIC
+      ${diagnostic_msgs_TARGETS}
+      ${geometry_msgs_TARGETS}
+      ${kobuki_ros_interfaces_TARGETS}
+      ${nav_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      angles::angles
+      diagnostic_updater::diagnostic_updater
+      kobuki_core::kobuki_core
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (ament_target_dependencies)
+
+[0m
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:[m[K In member function ‘[01m[Kvoid kobuki_node::KobukiRos::[01;32m[KpublishWheelState[m[K()[m[K’:
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;31m[Kerror: [m[Kmoving a temporary object prevents copy elision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Werror=pessimizing-move]8;;[m[K]
+  598 |   odom_publisher_->publish([01;31m[Kstd::move(odometry_->getOdometry())[m[K);
+      |                            [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/kobuki_ros.dir/build.make:90: CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,95 @@
+[0.147s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_safety_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller
+[0.333s] -- The C compiler identification is GNU 13.3.0
+[1.287s] -- The CXX compiler identification is GNU 13.3.0
+[2.299s] -- Detecting C compiler ABI info
+[2.518s] -- Detecting C compiler ABI info - done
+[2.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.526s] -- Detecting C compile features
+[2.526s] -- Detecting C compile features - done
+[2.601s] -- Detecting CXX compiler ABI info
+[2.892s] -- Detecting CXX compiler ABI info - done
+[2.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.905s] -- Detecting CXX compile features
+[2.905s] -- Detecting CXX compile features - done
+[2.910s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[3.115s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.216s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.284s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[3.289s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[3.289s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.289s]   CMake.
+[3.289s] 
+[3.289s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.289s]   CMake that the project does not need compatibility with older versions.
+[3.289s] Call Stack (most recent call first):
+[3.289s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[3.289s]   CMakeLists.txt:5 (find_package)
+[3.289s] 
+[3.289s] [0m
+[3.296s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[3.530s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.553s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.680s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[3.784s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.843s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.847s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[3.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.976s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.253s] -- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[4.303s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[4.304s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[4.304s]   with modern CMake targets instead.  Try replacing this call with:
+[4.304s] 
+[4.304s]     target_link_libraries(kobuki_safety_controller PUBLIC
+[4.304s]       ${geometry_msgs_TARGETS}
+[4.304s]       ${kobuki_ros_interfaces_TARGETS}
+[4.305s]       ${std_msgs_TARGETS}
+[4.305s]       rclcpp::rclcpp
+[4.305s]       rclcpp_components::component
+[4.305s]       rclcpp_components::component_manager
+[4.305s]     )
+[4.305s] 
+[4.306s] Call Stack (most recent call first):
+[4.306s]   CMakeLists.txt:18 (ament_target_dependencies)
+[4.306s] 
+[4.306s] [0m
+[4.441s] -- Configuring done (4.3s)
+[4.467s] -- Generating done (0.0s)
+[4.474s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller
+[4.489s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_safety_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller
+[4.491s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller -- -j16 -l16
+[4.565s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller_node.dir/rclcpp_components/node_main_kobuki_safety_controller_node.cpp.o[0m
+[4.576s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o[0m
+[10.028s] [ 75%] [32m[1mLinking CXX executable kobuki_safety_controller_node[0m
+[10.277s] [ 75%] Built target kobuki_safety_controller_node
+[21.655s] [100%] [32m[1mLinking CXX shared library libkobuki_safety_controller.so[0m
+[22.253s] [100%] Built target kobuki_safety_controller
+[22.265s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller -- -j16 -l16
+[22.266s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller
+[22.275s] -- Install configuration: ""
+[22.275s] -- Execute custom install script
+[22.276s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/lib/kobuki_safety_controller/kobuki_safety_controller_node
+[22.286s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so
+[22.295s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+[22.304s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/config/safety_controller_params.yaml
+[22.313s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-composed-launch.py
+[22.322s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-launch.py
+[22.331s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/ament_index/resource_index/package_run_dependencies/kobuki_safety_controller
+[22.340s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/ament_index/resource_index/parent_prefix_path/kobuki_safety_controller
+[22.348s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.sh
+[22.357s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.dsv
+[22.363s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.sh
+[22.372s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.dsv
+[22.380s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.bash
+[22.388s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.sh
+[22.396s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.zsh
+[22.404s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.dsv
+[22.413s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/package.dsv
+[22.421s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/ament_index/resource_index/packages/kobuki_safety_controller
+[22.430s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/ament_index/resource_index/rclcpp_components/kobuki_safety_controller
+[22.439s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+[22.447s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake
+[22.455s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_safety_controller/share/kobuki_safety_controller/package.xml
+[22.465s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller

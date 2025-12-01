@@ -1,0 +1,23 @@
+[ 50%] Built target kobuki_auto_docking_node
+[ 75%] [32mBuilding CXX object CMakeFiles/kobuki_auto_docking.dir/src/auto_docking_ros.cpp.o[0m
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp:27[m[K,
+                 from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking/src/auto_docking_ros.cpp:33[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/subscriber.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/subscriber.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/subscriber.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp:28[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/time_synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/time_synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/time_synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp:29[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/synchronizer.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/synchronizer.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/synchronizer.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp:30[m[K:
+[01m[K/opt/ros/kilted/include/message_filters/message_filters/sync_policies/approximate_time.h:18:2:[m[K [01;31m[Kerror: [m[K#warning This header is obsolete, please include message_filters/approximate_time.hpp instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Werror=cpp]8;;[m[K]
+   18 | #[01;31m[Kwarning[m[K This header is obsolete, please include message_filters/approximate_time.hpp instead
+      |  [01;31m[K^~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/kobuki_auto_docking.dir/build.make:76: CMakeFiles/kobuki_auto_docking.dir/src/auto_docking_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_auto_docking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

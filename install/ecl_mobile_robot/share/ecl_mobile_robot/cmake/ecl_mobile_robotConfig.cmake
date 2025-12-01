@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mobile_robot/ament_cmake_core/ecl_mobile_robotConfig.cmake

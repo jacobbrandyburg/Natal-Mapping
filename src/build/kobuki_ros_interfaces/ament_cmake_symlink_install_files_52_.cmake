@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces/msg/ButtonEvent.msg" "DESTINATION" "share/kobuki_ros_interfaces/msg")

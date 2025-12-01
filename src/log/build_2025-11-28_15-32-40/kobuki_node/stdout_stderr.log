@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.1 (/opt/ros/kilted/share/angles/cmake)
+-- Found diagnostic_msgs: 5.5.1 (/opt/ros/kilted/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.3.6 (/opt/ros/kilted/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+-- Found ecl_errors: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ecl_sigslots: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_sigslots/share/ecl_sigslots/cmake)
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FindThreads.cmake:226 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/kilted/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+-- Found kobuki_core: 1.4.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_core/share/kobuki_core/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+-- Found nav_msgs: 5.5.1 (/opt/ros/kilted/share/nav_msgs/cmake)
+-- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found tf2: 0.41.2 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_ros: 0.41.2 (/opt/ros/kilted/share/tf2_ros/cmake)
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(kobuki_ros PUBLIC
+      ${diagnostic_msgs_TARGETS}
+      ${geometry_msgs_TARGETS}
+      ${kobuki_ros_interfaces_TARGETS}
+      ${nav_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      angles::angles
+      diagnostic_updater::diagnostic_updater
+      kobuki_core::kobuki_core
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (ament_target_dependencies)
+
+[0m
+-- Configuring done (32.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_node
+[ 16%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[ 83%] Built target kobuki_ros_node
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:[m[K In member function ‘[01m[Kvoid kobuki_node::KobukiRos::[01;32m[KpublishWheelState[m[K()[m[K’:
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;31m[Kerror: [m[Kmoving a temporary object prevents copy elision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Werror=pessimizing-move]8;;[m[K]
+  598 |   odom_publisher_->publish([01;31m[Kstd::move(odometry_->getOdometry())[m[K);
+      |                            [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/kobuki_ros.dir/build.make:90: CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

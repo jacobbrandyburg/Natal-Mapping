@@ -1,0 +1,24 @@
+{
+  "package_name": "kobuki_ros_interfaces",
+  "non_idl_tuples": [
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/BumperEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/CliffEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/DigitalOutput.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/ExternalPower.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/Led.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/PowerSystemEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/SensorState.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/VersionInfo.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/ControllerInfo.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/ButtonEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/DigitalInputEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/DockInfraRed.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/KeyboardInput.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/MotorPower.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/RobotStateEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/Sound.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/ScanAngle.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:msg/WheelDropEvent.msg",
+    "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces:action/AutoDocking.action"
+  ]
+}
