@@ -1,0 +1,83 @@
+[0.033s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line
+[0.218s] -- The C compiler identification is GNU 13.3.0
+[1.153s] -- The CXX compiler identification is GNU 13.3.0
+[2.735s] -- Detecting C compiler ABI info
+[3.001s] -- Detecting C compiler ABI info - done
+[3.008s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.008s] -- Detecting C compile features
+[3.009s] -- Detecting C compile features - done
+[3.123s] -- Detecting CXX compiler ABI info
+[3.364s] -- Detecting CXX compiler ABI info - done
+[3.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.377s] -- Detecting CXX compile features
+[3.377s] -- Detecting CXX compile features - done
+[3.381s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[3.574s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.663s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.719s] -- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[3.724s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[3.724s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.725s]   CMake.
+[3.725s] 
+[3.725s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.725s]   CMake that the project does not need compatibility with older versions.
+[3.725s] Call Stack (most recent call first):
+[3.725s]   /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[3.725s]   CMakeLists.txt:13 (find_package)
+[3.725s] 
+[3.726s] [0m
+[3.828s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[3.865s] -- Configuring done (3.8s)
+[3.877s] -- Generating done (0.0s)
+[3.880s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line
+[3.896s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_command_line -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line
+[3.897s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line -- -j16 -l16
+[3.947s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_command_line.dir/command_line.cpp.o[0m
+[4.688s] [100%] [32m[1mLinking CXX executable demo_command_line[0m
+[4.906s] [100%] Built target ecl_demo_command_line
+[4.922s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line -- -j16 -l16
+[4.924s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line
+[4.934s] -- Install configuration: ""
+[4.936s] -- Execute custom install script
+[4.936s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/arg.hpp
+[4.945s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/arg_exception.hpp
+[4.955s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/cmd_line.hpp
+[4.964s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/cmd_line_interface.hpp
+[4.973s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/cmd_line_output.hpp
+[4.983s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/constraint.hpp
+[4.993s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/docbook_output.hpp
+[5.005s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/help_visitor.hpp
+[5.016s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/ignore_rest_visitor.hpp
+[5.025s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/multi_arg.hpp
+[5.034s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/multi_switch_arg.hpp
+[5.043s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/optional_unlabeled_tracker.hpp
+[5.052s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/std_output.hpp
+[5.061s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/switch_arg.hpp
+[5.072s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/unlabeled_multi_arg.hpp
+[5.081s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/unlabeled_value_arg.hpp
+[5.090s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/value_arg.hpp
+[5.100s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/values_constraint.hpp
+[5.108s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/version_visitor.hpp
+[5.117s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/visitor.hpp
+[5.126s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line/xor_handler.hpp
+[5.136s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/include/ecl/command_line.hpp
+[5.147s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/lib/ecl_command_line/demo_command_line
+[5.161s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ament_index/resource_index/package_run_dependencies/ecl_command_line
+[5.172s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ament_index/resource_index/parent_prefix_path/ecl_command_line
+[5.183s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.sh
+[5.193s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.dsv
+[5.205s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/environment/path.sh
+[5.217s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/environment/path.dsv
+[5.227s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/local_setup.bash
+[5.238s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/local_setup.sh
+[5.249s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/local_setup.zsh
+[5.259s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/local_setup.dsv
+[5.272s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/package.dsv
+[5.282s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ament_index/resource_index/packages/ecl_command_line
+[5.293s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_targets-extras.cmake
+[5.306s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.322s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake
+[5.332s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig-version.cmake
+[5.341s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/package.xml
+[5.351s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineExport.cmake
+[5.354s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_command_line

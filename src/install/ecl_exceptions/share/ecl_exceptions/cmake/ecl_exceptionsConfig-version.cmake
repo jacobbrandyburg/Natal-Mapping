@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_exceptions/ament_cmake_core/ecl_exceptionsConfig-version.cmake

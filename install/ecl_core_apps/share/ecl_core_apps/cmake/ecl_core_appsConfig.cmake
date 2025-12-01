@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_core_apps/ament_cmake_core/ecl_core_appsConfig.cmake

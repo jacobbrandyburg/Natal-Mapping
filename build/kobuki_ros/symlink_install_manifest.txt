@@ -1,0 +1,15 @@
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/ament_index/resource_index/package_run_dependencies/kobuki_ros
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/ament_index/resource_index/parent_prefix_path/kobuki_ros
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.sh
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.dsv
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/environment/path.sh
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/environment/path.dsv
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/local_setup.bash
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/local_setup.sh
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/local_setup.zsh
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/local_setup.dsv
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/package.dsv
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/ament_index/resource_index/packages/kobuki_ros
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig.cmake
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig-version.cmake
+/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros/share/kobuki_ros/package.xml

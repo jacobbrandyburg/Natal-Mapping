@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_bumper2pc/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_core/include/kobuki_core/packets/hardware.hpp

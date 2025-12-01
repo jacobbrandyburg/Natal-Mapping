@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_safety_controller" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_safety_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/kobuki_safety_controller/environment")

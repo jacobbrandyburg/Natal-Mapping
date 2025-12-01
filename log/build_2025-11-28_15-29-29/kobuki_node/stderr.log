@@ -1,0 +1,9 @@
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:[m[K In member function ‘[01m[Kvoid kobuki_node::KobukiRos::[01;32m[KpublishWheelState[m[K()[m[K’:
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;31m[Kerror: [m[Kmoving a temporary object prevents copy elision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Werror=pessimizing-move]8;;[m[K]
+  598 |   odom_publisher_->publish([01;31m[Kstd::move(odometry_->getOdometry())[m[K);
+      |                            [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node/src/kobuki_ros.cpp:598:37:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/kobuki_ros.dir/build.make:90: CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

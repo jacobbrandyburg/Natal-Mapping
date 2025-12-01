@@ -1,0 +1,1 @@
+/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_auto_docking/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,724 @@
+[0.034s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces
+[0.216s] -- The C compiler identification is GNU 13.3.0
+[1.120s] -- The CXX compiler identification is GNU 13.3.0
+[2.528s] -- Detecting C compiler ABI info
+[2.928s] -- Detecting C compiler ABI info - done
+[2.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.937s] -- Detecting C compile features
+[2.938s] -- Detecting C compile features - done
+[3.030s] -- Detecting CXX compiler ABI info
+[3.301s] -- Detecting CXX compiler ABI info - done
+[3.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.310s] -- Detecting CXX compile features
+[3.310s] -- Detecting CXX compile features - done
+[3.317s] -- Found action_msgs: 2.3.0 (/opt/ros/kilted/share/action_msgs/cmake)
+[3.484s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.582s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.925s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.948s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.072s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[4.113s] -- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[4.120s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[4.926s] -- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[5.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.914s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.997s] -- Configuring done (7.0s)
+[7.087s] -- Generating done (0.1s)
+[7.100s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces
+[7.115s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces
+[7.117s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces -- -j16 -l16
+[7.192s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.206s] [  1%] Built target ament_cmake_python_symlink_kobuki_ros_interfaces
+[7.479s] running egg_info
+[7.480s] creating kobuki_ros_interfaces.egg-info
+[7.507s] writing kobuki_ros_interfaces.egg-info/PKG-INFO
+[7.507s] writing dependency_links to kobuki_ros_interfaces.egg-info/dependency_links.txt
+[7.507s] writing top-level names to kobuki_ros_interfaces.egg-info/top_level.txt
+[7.507s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[7.602s] reading manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[7.603s] writing manifest file 'kobuki_ros_interfaces.egg-info/SOURCES.txt'
+[7.640s] [  1%] Built target ament_cmake_python_build_kobuki_ros_interfaces_egg
+[8.534s] [  1%] Built target kobuki_ros_interfaces__rosidl_generator_type_description
+[8.555s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.574s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.066s] [  2%] Built target kobuki_ros_interfaces__cpp
+[11.345s] [  2%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.c.o[0m
+[11.345s] [  3%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__description.c.o[0m
+[11.345s] [  3%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__description.c.o[0m
+[11.346s] [  4%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__functions.c.o[0m
+[11.346s] [  4%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__functions.c.o[0m
+[11.347s] [  4%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__description.c.o[0m
+[11.349s] [  5%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.c.o[0m
+[11.349s] [  6%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/bumper_event__functions.c.o[0m
+[11.351s] [  6%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support.c.o[0m
+[11.353s] [  7%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__description.c.o[0m
+[11.365s] [  7%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__functions.c.o[0m
+[11.365s] [  8%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/external_power__type_support.c.o[0m
+[11.367s] [  8%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__description.c.o[0m
+[11.369s] [  9%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__type_support.c.o[0m
+[11.377s] [  9%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/led__functions.c.o[0m
+[11.391s] [  9%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__description.c.o[0m
+[11.406s] [ 10%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__functions.c.o[0m
+[11.414s] [ 10%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.c.o[0m
+[11.419s] [ 11%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__description.c.o[0m
+[11.427s] [ 12%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__functions.c.o[0m
+[11.433s] [ 12%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__functions.c.o[0m
+[11.433s] [ 12%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__description.c.o[0m
+[11.443s] [ 13%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.c.o[0m
+[11.443s] [ 13%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/version_info__type_support.c.o[0m
+[11.445s] [ 14%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__description.c.o[0m
+[11.449s] [ 14%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__functions.c.o[0m
+[11.457s] [ 14%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__description.c.o[0m
+[11.460s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support.c.o[0m
+[11.466s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__functions.c.o[0m
+[11.466s] [ 15%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__description.c.o[0m
+[11.466s] [ 16%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/button_event__type_support.c.o[0m
+[11.472s] [ 17%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__functions.c.o[0m
+[11.482s] [ 17%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.c.o[0m
+[11.511s] [ 18%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__description.c.o[0m
+[11.517s] [ 19%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__functions.c.o[0m
+[11.518s] [ 19%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__functions.c.o[0m
+[11.521s] [ 20%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.c.o[0m
+[11.522s] [ 20%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__description.c.o[0m
+[11.522s] [ 20%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.c.o[0m
+[11.533s] [ 21%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__description.c.o[0m
+[11.533s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support.c.o[0m
+[11.536s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/motor_power__functions.c.o[0m
+[11.553s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__functions.c.o[0m
+[11.564s] [ 22%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__description.c.o[0m
+[11.567s] [ 23%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.c.o[0m
+[11.570s] [ 24%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__functions.c.o[0m
+[11.570s] [ 24%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__description.c.o[0m
+[11.579s] [ 24%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/sound__type_support.c.o[0m
+[11.581s] [ 25%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__description.c.o[0m
+[11.586s] [ 25%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__functions.c.o[0m
+[11.587s] [ 26%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.c.o[0m
+[11.593s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__functions.c.o[0m
+[11.602s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__functions.c.o[0m
+[11.602s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__description.c.o[0m
+[11.609s] [ 27%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.c.o[0m
+[11.618s] [ 28%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__description.c.o[0m
+[11.621s] [ 29%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support.c.o[0m
+[11.781s] [ 29%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_generator_c.so[0m
+[11.969s] [ 29%] Built target kobuki_ros_interfaces__rosidl_generator_c
+[11.982s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.983s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.984s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.984s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.986s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.989s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.827s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/digital_output__type_support.cpp.o[0m
+[13.828s] [ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/cliff_event__type_support.cpp.o[0m
+[13.831s] [ 34%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/bumper_event__type_support.cpp.o[0m
+[13.832s] [ 34%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/external_power__type_support.cpp.o[0m
+[13.843s] [ 35%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/bumper_event__type_support.cpp.o[0m
+[13.846s] [ 35%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/led__type_support.cpp.o[0m
+[13.853s] [ 36%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/power_system_event__type_support.cpp.o[0m
+[13.861s] [ 36%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/cliff_event__type_support.cpp.o[0m
+[13.880s] [ 37%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/digital_output__type_support.cpp.o[0m
+[13.905s] [ 37%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/external_power__type_support.cpp.o[0m
+[13.908s] [ 38%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/led__type_support.cpp.o[0m
+[13.962s] [ 38%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/power_system_event__type_support.cpp.o[0m
+[13.972s] [ 39%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/sensor_state__type_support.cpp.o[0m
+[13.973s] [ 39%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/version_info__type_support.cpp.o[0m
+[14.031s] [ 39%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/sensor_state__type_support.cpp.o[0m
+[14.034s] [ 40%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/version_info__type_support.cpp.o[0m
+[14.054s] [ 40%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/controller_info__type_support.cpp.o[0m
+[14.069s] [ 41%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/button_event__type_support.cpp.o[0m
+[14.087s] [ 41%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/digital_input_event__type_support.cpp.o[0m
+[14.100s] [ 41%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/controller_info__type_support.cpp.o[0m
+[14.222s] [ 42%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/button_event__type_support.cpp.o[0m
+[14.349s] [ 42%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/digital_input_event__type_support.cpp.o[0m
+[14.360s] [ 43%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/dock_infra_red__type_support.cpp.o[0m
+[14.442s] [ 44%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/dock_infra_red__type_support.cpp.o[0m
+[14.442s] [ 44%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.c.o[0m
+[14.486s] [ 44%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/keyboard_input__type_support.cpp.o[0m
+[14.502s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.cpp.o[0m
+[14.509s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.cpp.o[0m
+[14.520s] [ 45%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/keyboard_input__type_support.cpp.o[0m
+[14.530s] [ 46%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/digital_output__type_support.cpp.o[0m
+[14.540s] [ 46%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/external_power__type_support.cpp.o[0m
+[14.548s] [ 47%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/motor_power__type_support.cpp.o[0m
+[14.554s] [ 48%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/led__type_support.cpp.o[0m
+[14.573s] [ 48%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.c.o[0m
+[14.619s] [ 49%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support.c.o[0m
+[14.646s] [ 49%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/robot_state_event__type_support.cpp.o[0m
+[14.657s] [ 49%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/external_power__type_support.c.o[0m
+[14.686s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/motor_power__type_support.cpp.o[0m
+[14.723s] [ 51%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/led__type_support.c.o[0m
+[14.731s] [ 52%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/sound__type_support.cpp.o[0m
+[14.731s] [ 52%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.cpp.o[0m
+[14.824s] [ 52%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.c.o[0m
+[14.853s] [ 52%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/scan_angle__type_support.cpp.o[0m
+[14.925s] [ 53%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.c.o[0m
+[14.943s] [ 53%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/robot_state_event__type_support.cpp.o[0m
+[14.955s] [ 54%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/msg/wheel_drop_event__type_support.cpp.o[0m
+[14.975s] [ 54%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/version_info__type_support.c.o[0m
+[14.978s] [ 54%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kobuki_ros_interfaces/action/auto_docking__type_support.cpp.o[0m
+[15.042s] [ 55%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.cpp.o[0m
+[15.042s] [ 56%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support.c.o[0m
+[15.047s] [ 57%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/sound__type_support.cpp.o[0m
+[15.075s] [ 57%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/button_event__type_support.c.o[0m
+[15.076s] [ 57%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/scan_angle__type_support.cpp.o[0m
+[15.103s] [ 57%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/version_info__type_support.cpp.o[0m
+[15.112s] [ 58%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_c.so[0m
+[15.129s] [ 59%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.c.o[0m
+[15.142s] [ 60%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/msg/wheel_drop_event__type_support.cpp.o[0m
+[15.155s] [ 60%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kobuki_ros_interfaces/action/auto_docking__type_support.cpp.o[0m
+[15.241s] [ 60%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.c.o[0m
+[15.283s] [ 61%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.c.o[0m
+[15.342s] [ 62%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/controller_info__type_support.cpp.o[0m
+[15.364s] [ 62%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support.c.o[0m
+[15.377s] [ 62%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/button_event__type_support.cpp.o[0m
+[15.383s] [ 63%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.c.o[0m
+[15.390s] [ 63%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.cpp.o[0m
+[15.447s] [ 63%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/bumper_event__type_support_c.cpp.o[0m
+[15.454s] [ 63%] Built target kobuki_ros_interfaces__rosidl_typesupport_c
+[15.469s] [ 64%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/cliff_event__type_support_c.cpp.o[0m
+[15.473s] [ 64%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/sound__type_support.c.o[0m
+[15.481s] [ 65%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.cpp.o[0m
+[15.574s] [ 65%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.c.o[0m
+[15.584s] [ 65%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support.c.o[0m
+[15.587s] [ 66%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.c.o[0m
+[15.675s] [ 67%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/external_power__type_support_c.cpp.o[0m
+[15.676s] [ 67%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/digital_output__type_support_c.cpp.o[0m
+[15.676s] [ 67%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.cpp.o[0m
+[15.688s] [ 68%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/motor_power__type_support.cpp.o[0m
+[15.701s] [ 68%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/bumper_event__type_support.cpp.o[0m
+[15.701s] [ 68%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.cpp.o[0m
+[15.795s] [ 69%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.820s] [ 70%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/cliff_event__type_support.cpp.o[0m
+[15.860s] [ 70%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/led__type_support_c.cpp.o[0m
+[15.973s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/power_system_event__type_support_c.cpp.o[0m
+[16.075s] [ 71%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_c
+[16.083s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/digital_output__type_support.cpp.o[0m
+[16.103s] [ 71%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[16.355s] [ 72%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/sound__type_support.cpp.o[0m
+[16.398s] [ 73%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/external_power__type_support.cpp.o[0m
+[16.426s] [ 74%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/version_info__type_support_c.cpp.o[0m
+[16.439s] [ 74%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.cpp.o[0m
+[16.515s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.cpp.o[0m
+[16.529s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/led__type_support.cpp.o[0m
+[16.897s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/controller_info__type_support_c.cpp.o[0m
+[16.922s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/action/detail/auto_docking__type_support.cpp.o[0m
+[16.946s] [ 76%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/power_system_event__type_support.cpp.o[0m
+[17.052s] [ 77%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/button_event__type_support_c.cpp.o[0m
+[17.112s] [ 77%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[17.151s] [ 77%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[17.172s] [ 78%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/controller_info__type_support.cpp.o[0m
+[17.196s] [ 78%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_cpp.so[0m
+[17.324s] [ 78%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support_c.cpp.o[0m
+[17.397s] [ 79%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support_c.cpp.o[0m
+[17.595s] [ 79%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support_c.cpp.o[0m
+[17.639s] [ 79%] Built target kobuki_ros_interfaces__rosidl_typesupport_cpp
+[17.662s] [ 80%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support_c.cpp.o[0m
+[17.662s] [ 80%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/motor_power__type_support_c.cpp.o[0m
+[17.669s] [ 79%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/button_event__type_support.cpp.o[0m
+[17.742s] [ 81%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/digital_input_event__type_support.cpp.o[0m
+[17.930s] [ 81%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/dock_infra_red__type_support.cpp.o[0m
+[18.031s] [ 81%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/motor_power__type_support.cpp.o[0m
+[18.039s] [ 82%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/keyboard_input__type_support.cpp.o[0m
+[18.208s] [ 83%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/robot_state_event__type_support.cpp.o[0m
+[18.208s] [ 83%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/sound__type_support_c.cpp.o[0m
+[18.353s] [ 84%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/scan_angle__type_support_c.cpp.o[0m
+[18.391s] [ 84%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[18.736s] [ 84%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support_c.cpp.o[0m
+[18.783s] [ 85%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/action/detail/auto_docking__type_support_c.cpp.o[0m
+[18.812s] [ 86%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/scan_angle__type_support.cpp.o[0m
+[18.856s] [ 86%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/dds_fastrtps/wheel_drop_event__type_support.cpp.o[0m
+[18.941s] [ 87%] [32mBuilding CXX object CMakeFiles/kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/action/detail/dds_fastrtps/auto_docking__type_support.cpp.o[0m
+[18.960s] [ 88%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[19.364s] [ 88%] Built target kobuki_ros_interfaces__rosidl_typesupport_introspection_cpp
+[19.773s] [ 88%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.970s] [ 88%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_c
+[20.396s] [ 88%] [32m[1mLinking CXX shared library libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.562s] [ 88%] Built target kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[20.586s] [ 88%] Built target kobuki_ros_interfaces
+[20.611s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.848s] [ 88%] Built target kobuki_ros_interfaces__py
+[23.876s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_bumper_event_s.c.o[0m
+[23.876s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_led_s.c.o[0m
+[23.876s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_output_s.c.o[0m
+[23.876s] [ 89%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_cliff_event_s.c.o[0m
+[23.877s] [ 90%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_power_system_event_s.c.o[0m
+[23.879s] [ 91%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_external_power_s.c.o[0m
+[23.880s] [ 92%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_button_event_s.c.o[0m
+[23.880s] [ 92%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_digital_input_event_s.c.o[0m
+[23.880s] [ 92%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_controller_info_s.c.o[0m
+[23.882s] [ 93%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_motor_power_s.c.o[0m
+[23.884s] [ 93%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sensor_state_s.c.o[0m
+[23.884s] [ 93%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_keyboard_input_s.c.o[0m
+[23.885s] [ 94%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_version_info_s.c.o[0m
+[23.889s] [ 95%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_dock_infra_red_s.c.o[0m
+[23.890s] [ 95%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_sound_s.c.o[0m
+[23.891s] [ 95%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_robot_state_event_s.c.o[0m
+[24.065s] [ 96%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_scan_angle_s.c.o[0m
+[24.068s] [ 96%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/msg/_wheel_drop_event_s.c.o[0m
+[24.090s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kobuki_ros_interfaces/action/_auto_docking_s.c.o[0m
+[24.326s] [ 97%] [32m[1mLinking C shared library libkobuki_ros_interfaces__rosidl_generator_py.so[0m
+[24.494s] [ 97%] Built target kobuki_ros_interfaces__rosidl_generator_py
+[24.514s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[24.518s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.518s] [ 97%] [32mBuilding C object CMakeFiles/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.709s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so[0m
+[24.714s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[24.724s] [100%] [32m[1mLinking C shared module rosidl_generator_py/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[24.830s] [100%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_c
+[24.865s] [100%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c
+[24.882s] [100%] Built target kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c
+[24.899s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces -- -j16 -l16
+[24.901s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces
+[24.912s] -- Install configuration: ""
+[24.912s] -- Execute custom install script
+[24.913s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/kobuki_ros_interfaces
+[24.923s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.json
+[24.932s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.json
+[24.942s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.json
+[24.952s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.json
+[24.961s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.json
+[24.971s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.json
+[24.980s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.json
+[24.990s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.json
+[25.001s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.json
+[25.011s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.json
+[25.021s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.json
+[25.032s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.json
+[25.042s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.json
+[25.053s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.json
+[25.063s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.json
+[25.074s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.json
+[25.085s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.json
+[25.096s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.json
+[25.106s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.json
+[25.116s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.h
+[25.125s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__functions.h
+[25.135s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.h
+[25.145s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__type_support.h
+[25.154s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.h
+[25.164s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.h
+[25.175s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.h
+[25.184s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.h
+[25.194s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__functions.h
+[25.205s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.h
+[25.216s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.h
+[25.225s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__functions.h
+[25.234s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.h
+[25.246s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__type_support.h
+[25.256s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__functions.h
+[25.266s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.h
+[25.277s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.h
+[25.289s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__functions.h
+[25.299s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.h
+[25.311s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__type_support.h
+[25.321s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__functions.h
+[25.332s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.h
+[25.344s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.h
+[25.355s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__functions.h
+[25.365s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.h
+[25.376s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__type_support.h
+[25.388s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__functions.h
+[25.400s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.h
+[25.411s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.h
+[25.421s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__functions.h
+[25.431s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.h
+[25.441s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__type_support.h
+[25.454s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__functions.h
+[25.468s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.h
+[25.479s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.h
+[25.494s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__functions.h
+[25.506s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.h
+[25.516s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__type_support.h
+[25.527s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__functions.h
+[25.542s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.h
+[25.552s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__type_support.h
+[25.564s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__functions.h
+[25.575s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.h
+[25.587s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.h
+[25.598s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__functions.h
+[25.607s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.h
+[25.617s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.h
+[25.629s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__functions.h
+[25.638s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.h
+[25.651s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.h
+[25.661s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__functions.h
+[25.669s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.h
+[25.681s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.h
+[25.693s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__functions.h
+[25.707s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.h
+[25.716s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__type_support.h
+[25.729s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__functions.h
+[25.739s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.h
+[25.749s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__type_support.h
+[25.762s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__functions.h
+[25.772s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.h
+[25.781s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.h
+[25.792s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.h
+[25.802s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.h
+[25.813s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.h
+[25.825s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.h
+[25.835s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.h
+[25.844s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.h
+[25.856s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.h
+[25.868s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.h
+[25.879s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.h
+[25.889s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[25.901s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.h
+[25.915s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.h
+[25.924s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.h
+[25.934s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.h
+[25.947s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.h
+[25.960s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.sh
+[25.973s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/library_path.dsv
+[25.987s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_c.h
+[25.999s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_c.h
+[26.012s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_c.h
+[26.021s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_c.h
+[26.034s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_c.h
+[26.045s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_c.h
+[26.059s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_c.h
+[26.071s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_c.h
+[26.080s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_c.h
+[26.090s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_c.h
+[26.103s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+[26.113s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_c.h
+[26.125s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_c.h
+[26.136s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_c.h
+[26.149s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_c.h
+[26.160s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[26.173s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[26.183s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[26.192s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_c.h
+[26.203s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.216s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/auto_docking.hpp
+[26.227s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__builder.hpp
+[26.238s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__struct.hpp
+[26.249s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__traits.hpp
+[26.259s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__type_support.hpp
+[26.268s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/bumper_event.hpp
+[26.280s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/button_event.hpp
+[26.291s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/cliff_event.hpp
+[26.300s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/controller_info.hpp
+[26.313s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__builder.hpp
+[26.325s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__struct.hpp
+[26.338s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__traits.hpp
+[26.348s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__type_support.hpp
+[26.362s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__builder.hpp
+[26.376s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__struct.hpp
+[26.390s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__traits.hpp
+[26.402s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__type_support.hpp
+[26.415s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__builder.hpp
+[26.426s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__struct.hpp
+[26.439s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__traits.hpp
+[26.448s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__type_support.hpp
+[26.460s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__builder.hpp
+[26.470s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__struct.hpp
+[26.482s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__traits.hpp
+[26.496s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__type_support.hpp
+[26.508s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__builder.hpp
+[26.521s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__struct.hpp
+[26.533s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__traits.hpp
+[26.545s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__type_support.hpp
+[26.559s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__builder.hpp
+[26.571s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__struct.hpp
+[26.585s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__traits.hpp
+[26.599s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__type_support.hpp
+[26.615s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__builder.hpp
+[26.628s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__struct.hpp
+[26.640s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__traits.hpp
+[26.656s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__type_support.hpp
+[26.666s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__builder.hpp
+[26.680s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__struct.hpp
+[26.697s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__traits.hpp
+[26.705s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__type_support.hpp
+[26.719s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__builder.hpp
+[26.731s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__struct.hpp
+[26.746s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__traits.hpp
+[26.757s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__type_support.hpp
+[26.768s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__builder.hpp
+[26.784s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__struct.hpp
+[26.793s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__traits.hpp
+[26.806s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__type_support.hpp
+[26.818s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__builder.hpp
+[26.830s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__struct.hpp
+[26.843s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__traits.hpp
+[26.854s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__type_support.hpp
+[26.864s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__builder.hpp
+[26.878s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__struct.hpp
+[26.891s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__traits.hpp
+[26.903s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__type_support.hpp
+[26.914s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__builder.hpp
+[26.924s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__struct.hpp
+[26.934s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__traits.hpp
+[26.945s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__type_support.hpp
+[26.955s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__builder.hpp
+[26.968s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__struct.hpp
+[26.977s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__traits.hpp
+[26.986s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__type_support.hpp
+[26.995s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__builder.hpp
+[27.004s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__struct.hpp
+[27.013s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__traits.hpp
+[27.022s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__type_support.hpp
+[27.032s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__builder.hpp
+[27.042s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__struct.hpp
+[27.053s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__traits.hpp
+[27.065s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__type_support.hpp
+[27.074s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__builder.hpp
+[27.084s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__struct.hpp
+[27.094s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__traits.hpp
+[27.108s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__type_support.hpp
+[27.116s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__builder.hpp
+[27.126s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__struct.hpp
+[27.135s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__traits.hpp
+[27.145s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__type_support.hpp
+[27.156s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_input_event.hpp
+[27.168s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/digital_output.hpp
+[27.178s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/dock_infra_red.hpp
+[27.186s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/external_power.hpp
+[27.197s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/keyboard_input.hpp
+[27.206s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/led.hpp
+[27.216s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/motor_power.hpp
+[27.226s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/power_system_event.hpp
+[27.236s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/robot_state_event.hpp
+[27.244s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.258s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/scan_angle.hpp
+[27.266s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sensor_state.hpp
+[27.274s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/sound.hpp
+[27.285s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/version_info.hpp
+[27.295s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/wheel_drop_event.hpp
+[27.306s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_fastrtps_cpp.hpp
+[27.315s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.323s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.332s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.341s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_fastrtps_cpp.hpp
+[27.350s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.359s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_fastrtps_cpp.hpp
+[27.366s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_fastrtps_cpp.hpp
+[27.374s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_fastrtps_cpp.hpp
+[27.384s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_fastrtps_cpp.hpp
+[27.394s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+[27.403s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_fastrtps_cpp.hpp
+[27.412s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.420s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.430s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[27.438s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[27.448s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[27.460s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[27.469s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_fastrtps_cpp.hpp
+[27.478s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.489s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_c.h
+[27.499s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_c.h
+[27.508s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_c.h
+[27.516s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_c.h
+[27.526s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_c.h
+[27.534s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_c.h
+[27.543s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_c.h
+[27.551s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_c.h
+[27.560s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_c.h
+[27.569s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_c.h
+[27.578s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_c.h
+[27.586s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_c.h
+[27.596s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_c.h
+[27.604s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_c.h
+[27.615s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_c.h
+[27.624s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[27.632s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[27.641s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[27.650s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_c.h
+[27.659s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.669s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/action/detail/auto_docking__rosidl_typesupport_introspection_cpp.hpp
+[27.678s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/bumper_event__rosidl_typesupport_introspection_cpp.hpp
+[27.687s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/button_event__rosidl_typesupport_introspection_cpp.hpp
+[27.695s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/cliff_event__rosidl_typesupport_introspection_cpp.hpp
+[27.704s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/controller_info__rosidl_typesupport_introspection_cpp.hpp
+[27.713s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_input_event__rosidl_typesupport_introspection_cpp.hpp
+[27.723s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/digital_output__rosidl_typesupport_introspection_cpp.hpp
+[27.731s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/dock_infra_red__rosidl_typesupport_introspection_cpp.hpp
+[27.739s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_cpp.hpp
+[27.747s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/keyboard_input__rosidl_typesupport_introspection_cpp.hpp
+[27.756s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+[27.764s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_cpp.hpp
+[27.771s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/power_system_event__rosidl_typesupport_introspection_cpp.hpp
+[27.780s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/robot_state_event__rosidl_typesupport_introspection_cpp.hpp
+[27.788s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_cpp.hpp
+[27.798s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[27.806s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[27.816s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[27.824s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/include/kobuki_ros_interfaces/kobuki_ros_interfaces/msg/detail/wheel_drop_event__rosidl_typesupport_introspection_cpp.hpp
+[27.832s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.sh
+[27.842s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/pythonpath.dsv
+[27.852s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/PKG-INFO
+[27.861s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt
+[27.869s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt
+[27.878s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces-1.0.0-py3.12.egg-info/top_level.txt
+[27.887s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/__init__.py
+[27.896s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_c.c
+[27.905s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.913s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/_kobuki_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[27.922s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/__init__.py
+[27.931s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/_auto_docking.py
+[27.939s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/_auto_docking_s.c
+[27.948s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so
+[27.956s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[27.965s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so
+[27.973s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/__init__.py
+[27.982s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_bumper_event.py
+[27.990s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_bumper_event_s.c
+[27.998s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_button_event.py
+[28.007s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_button_event_s.c
+[28.016s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_cliff_event.py
+[28.025s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_cliff_event_s.c
+[28.035s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_controller_info.py
+[28.044s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_controller_info_s.c
+[28.053s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_input_event.py
+[28.064s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_input_event_s.c
+[28.073s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_output.py
+[28.081s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_output_s.c
+[28.089s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_dock_infra_red.py
+[28.098s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_dock_infra_red_s.c
+[28.106s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_external_power.py
+[28.114s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_external_power_s.c
+[28.123s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_keyboard_input.py
+[28.130s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_keyboard_input_s.c
+[28.138s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_led.py
+[28.147s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_led_s.c
+[28.155s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_motor_power.py
+[28.163s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_motor_power_s.c
+[28.171s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_power_system_event.py
+[28.179s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_power_system_event_s.c
+[28.188s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_robot_state_event.py
+[28.196s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_robot_state_event_s.c
+[28.205s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_scan_angle.py
+[28.213s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_scan_angle_s.c
+[28.221s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sensor_state.py
+[28.230s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sensor_state_s.c
+[28.238s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sound.py
+[28.246s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sound_s.c
+[28.254s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_version_info.py
+[28.262s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_version_info_s.c
+[28.270s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_wheel_drop_event.py
+[28.278s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_wheel_drop_event_s.c
+[28.286s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[28.287s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_introspection_c.so
+[28.287s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/kobuki_ros_interfaces_s__rosidl_typesupport_c.so
+[28.287s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.idl
+[28.295s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.idl
+[28.304s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.idl
+[28.313s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.idl
+[28.321s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.idl
+[28.329s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.idl
+[28.338s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.idl
+[28.347s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.idl
+[28.356s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.idl
+[28.366s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.idl
+[28.375s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.idl
+[28.384s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.idl
+[28.393s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.idl
+[28.401s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.idl
+[28.409s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.idl
+[28.418s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.idl
+[28.426s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.idl
+[28.434s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.idl
+[28.442s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.idl
+[28.451s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/BumperEvent.msg
+[28.460s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/CliffEvent.msg
+[28.468s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalOutput.msg
+[28.476s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ExternalPower.msg
+[28.484s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Led.msg
+[28.492s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/PowerSystemEvent.msg
+[28.500s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/SensorState.msg
+[28.510s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/VersionInfo.msg
+[28.519s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ControllerInfo.msg
+[28.527s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ButtonEvent.msg
+[28.536s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DigitalInputEvent.msg
+[28.544s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/DockInfraRed.msg
+[28.553s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/KeyboardInput.msg
+[28.561s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/MotorPower.msg
+[28.569s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/RobotStateEvent.msg
+[28.578s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/Sound.msg
+[28.586s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/ScanAngle.msg
+[28.594s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/msg/WheelDropEvent.msg
+[28.602s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/action/AutoDocking.action
+[28.611s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/kobuki_ros_interfaces
+[28.621s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/kobuki_ros_interfaces
+[28.630s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.sh
+[28.638s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/ament_prefix_path.dsv
+[28.646s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.sh
+[28.654s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/environment/path.dsv
+[28.663s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.bash
+[28.677s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.sh
+[28.689s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.zsh
+[28.699s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/local_setup.dsv
+[28.710s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.dsv
+[28.721s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/ament_index/resource_index/packages/kobuki_ros_interfaces
+[28.731s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake-extras.cmake
+[28.739s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.748s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.757s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[28.765s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[28.774s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.783s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.792s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig.cmake
+[28.802s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfacesConfig-version.cmake
+[28.812s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/package.xml
+[28.821s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_c.so
+[28.822s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_c.so" to ""
+[28.823s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so
+[28.823s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[28.823s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[28.823s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.824s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so
+[28.824s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[28.824s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_c.so
+[28.824s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_c.so" to ""
+[28.824s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so
+[28.824s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[28.825s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_cpp.so
+[28.825s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_typesupport_cpp.so" to ""
+[28.894s] Listing '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces'...
+[28.894s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/__init__.py'...
+[28.894s] Listing '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action'...
+[28.894s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/__init__.py'...
+[28.894s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/action/_auto_docking.py'...
+[28.895s] Listing '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/__init__.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_bumper_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_button_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_cliff_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_controller_info.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_input_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_digital_output.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_dock_infra_red.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_external_power.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_keyboard_input.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_led.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_motor_power.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_power_system_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_robot_state_event.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_scan_angle.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sensor_state.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_sound.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_version_info.py'...
+[28.895s] Compiling '/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages/kobuki_ros_interfaces/msg/_wheel_drop_event.py'...
+[28.900s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_py.so
+[28.900s] -- Set non-toolchain portion of runtime path of "/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/libkobuki_ros_interfaces__rosidl_generator_py.so" to ""
+[28.900s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport.cmake
+[28.900s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+[28.901s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[28.901s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[28.902s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_cppExport.cmake
+[28.902s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[28.902s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/kobuki_ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport.cmake
+[28.903s] -- Installing: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake/export_kobuki_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[28.905s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces

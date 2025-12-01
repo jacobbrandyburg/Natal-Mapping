@@ -1,0 +1,83 @@
+[0.109s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker
+[0.261s] -- The C compiler identification is GNU 13.3.0
+[1.221s] -- The CXX compiler identification is GNU 13.3.0
+[2.046s] -- Detecting C compiler ABI info
+[2.368s] -- Detecting C compiler ABI info - done
+[2.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.376s] -- Detecting C compile features
+[2.377s] -- Detecting C compile features - done
+[2.450s] -- Detecting CXX compiler ABI info
+[2.731s] -- Detecting CXX compiler ABI info - done
+[2.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.740s] -- Detecting CXX compile features
+[2.741s] -- Detecting CXX compile features - done
+[2.744s] -- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.920s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.017s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.080s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[3.333s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[3.355s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[3.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.477s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[3.593s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[3.658s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.663s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[3.782s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.084s] -- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[4.123s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[4.123s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[4.123s]   with modern CMake targets instead.  Try replacing this call with:
+[4.123s] 
+[4.123s]     target_link_libraries(kobuki_random_walker PUBLIC
+[4.123s]       ${geometry_msgs_TARGETS}
+[4.123s]       ${kobuki_ros_interfaces_TARGETS}
+[4.123s]       ${std_msgs_TARGETS}
+[4.124s]       rclcpp::rclcpp
+[4.124s]       rclcpp_components::component
+[4.124s]       rclcpp_components::component_manager
+[4.124s]     )
+[4.124s] 
+[4.124s] Call Stack (most recent call first):
+[4.124s]   CMakeLists.txt:26 (ament_target_dependencies)
+[4.124s] 
+[4.124s] [0m
+[4.248s] -- Configuring done (4.1s)
+[4.272s] -- Generating done (0.0s)
+[4.281s] -- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker
+[4.292s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker
+[4.293s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker -- -j16 -l16
+[4.361s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker_node.dir/rclcpp_components/node_main_kobuki_random_walker_node.cpp.o[0m
+[4.364s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
+[9.997s] [ 75%] [32m[1mLinking CXX executable kobuki_random_walker_node[0m
+[10.243s] [ 75%] Built target kobuki_random_walker_node
+[22.343s] [100%] [32m[1mLinking CXX shared library libkobuki_random_walker.so[0m
+[23.085s] [100%] Built target kobuki_random_walker
+[23.096s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker -- -j16 -l16
+[23.097s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker
+[23.106s] -- Install configuration: ""
+[23.106s] -- Execute custom install script
+[23.107s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/lib/kobuki_random_walker/kobuki_random_walker_node
+[23.116s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+[23.124s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/include/kobuki_random_walker/random_walker.hpp
+[23.144s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/launch/random_walker_app.launch
+[23.154s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/launch/safe_random_walker_app.launch
+[23.165s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/launch/standalone.launch
+[23.176s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/ament_index/resource_index/package_run_dependencies/kobuki_random_walker
+[23.185s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/ament_index/resource_index/parent_prefix_path/kobuki_random_walker
+[23.195s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.sh
+[23.204s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.dsv
+[23.215s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.sh
+[23.224s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.dsv
+[23.233s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.bash
+[23.242s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.sh
+[23.251s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.zsh
+[23.260s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.dsv
+[23.269s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/package.dsv
+[23.278s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/ament_index/resource_index/packages/kobuki_random_walker
+[23.287s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/ament_index/resource_index/rclcpp_components/kobuki_random_walker
+[23.297s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake
+[23.308s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
+[23.317s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_random_walker/share/kobuki_random_walker/package.xml
+[23.328s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_ros_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker

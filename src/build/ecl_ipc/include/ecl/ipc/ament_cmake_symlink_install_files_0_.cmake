@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_ipc/include/ecl/ipc" FILES "semaphore.hpp" "semaphore_pos.hpp" "shared_memory.hpp" "shared_memory_pos.hpp" "DESTINATION" "include/ecl/ipc")

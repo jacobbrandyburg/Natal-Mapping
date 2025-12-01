@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_config/include/ecl/config" FILES "char_sign.hpp" "ecl_unknown.hpp" "endianness.hpp" "macros.hpp" "portable_types.hpp" "windows.hpp" "DESTINATION" "include/ecl/config")

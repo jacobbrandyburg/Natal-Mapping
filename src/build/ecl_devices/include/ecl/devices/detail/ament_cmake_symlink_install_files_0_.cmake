@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_devices/include/ecl/devices/detail" FILES "character_buffer.hpp" "error_handler.hpp" "exception_handler_pos.hpp" "socket_error_handler_pos.hpp" "socket_exception_handler_pos.hpp" "DESTINATION" "include/ecl/devices/detail")
