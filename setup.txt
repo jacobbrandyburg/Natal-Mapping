@@ -2,3 +2,10 @@
 	source /opt/ros/kilted/setup.bash
 2). Make sure to install all packages in a src folder
 
+**On my local Natal repo, I need to run:
+- colcon build --symlink-install --executor sequential
+- colcon build --packages-select kobuki_node
+- source install/setup.bash (for kilted i think)
+- ros2 launch kobuki_node kobuki_node-launch.py
+
+
