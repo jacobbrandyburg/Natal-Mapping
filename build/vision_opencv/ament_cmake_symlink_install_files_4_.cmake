@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/vision_opencv" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/vision_opencv/environment")

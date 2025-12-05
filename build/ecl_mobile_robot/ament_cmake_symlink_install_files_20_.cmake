@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_mobile_robot" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_mobile_robot/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ecl_mobile_robot/cmake")

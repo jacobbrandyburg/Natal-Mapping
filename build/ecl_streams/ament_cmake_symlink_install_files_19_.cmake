@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_streams" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_streams/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ecl_streams/cmake")

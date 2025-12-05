@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/motor_power__rosidl_typesupport_introspection_c.h

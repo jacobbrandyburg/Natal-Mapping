@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp

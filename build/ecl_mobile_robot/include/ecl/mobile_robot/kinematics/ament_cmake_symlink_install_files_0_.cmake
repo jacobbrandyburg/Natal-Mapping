@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_mobile_robot/include/ecl/mobile_robot/kinematics" FILES "differential_drive.hpp" "DESTINATION" "include/ecl/mobile_robot/kinematics")

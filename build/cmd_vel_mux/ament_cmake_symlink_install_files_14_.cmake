@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/cmd_vel_mux" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/cmd_vel_mux/package.xml" "DESTINATION" "share/cmd_vel_mux")

@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h

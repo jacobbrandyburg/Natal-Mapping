@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_generator_c/kobuki_ros_interfaces/action/detail/auto_docking__struct.h

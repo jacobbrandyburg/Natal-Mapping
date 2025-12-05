@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/opencv_tests/setup.py

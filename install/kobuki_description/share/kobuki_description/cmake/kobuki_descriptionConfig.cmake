@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_description/ament_cmake_core/kobuki_descriptionConfig.cmake

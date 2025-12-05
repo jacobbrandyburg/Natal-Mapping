@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_auto_docking/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/kobuki_auto_docking/environment")

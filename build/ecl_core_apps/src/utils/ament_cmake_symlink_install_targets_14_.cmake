@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_core_apps/src/utils/bin/ecl_process_statistics" "TARGETS" "ecl_process_statistics" "RUNTIME_DESTINATION" "bin")

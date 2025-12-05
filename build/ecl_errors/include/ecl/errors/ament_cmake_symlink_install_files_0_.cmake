@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_errors/include/ecl/errors" FILES "compile_time_assert.hpp" "flags.hpp" "handlers.hpp" "macros.hpp" "run_time_functions.hpp" "DESTINATION" "include/ecl/errors")

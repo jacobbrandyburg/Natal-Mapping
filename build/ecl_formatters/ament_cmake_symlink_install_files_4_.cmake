@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_formatters" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_formatters/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ecl_formatters" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

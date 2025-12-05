@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/vision_opencv" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/vision_opencv/package.xml" "DESTINATION" "share/vision_opencv")

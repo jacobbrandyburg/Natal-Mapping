@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_generator_cpp/kobuki_ros_interfaces/msg/detail/cliff_event__struct.hpp

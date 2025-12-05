@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera/libastra_camera.so" "/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera/libastra_camera.so" "/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera/libastra_camera.so" "TARGETS" "astra_camera" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

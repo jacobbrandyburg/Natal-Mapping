@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_typesupport_fastrtps_c/kobuki_ros_interfaces/msg/detail/sound__rosidl_typesupport_fastrtps_c.h

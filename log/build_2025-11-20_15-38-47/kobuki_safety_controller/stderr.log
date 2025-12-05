@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/kobuki_safety_controller.dir/build.make:76: CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/kobuki_safety_controller.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

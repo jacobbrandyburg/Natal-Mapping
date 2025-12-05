@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/cv_bridge/include/cv_bridge/rgb_colors.hpp

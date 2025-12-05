@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/image_geometry/include/image_geometry/stereo_camera_model.hpp

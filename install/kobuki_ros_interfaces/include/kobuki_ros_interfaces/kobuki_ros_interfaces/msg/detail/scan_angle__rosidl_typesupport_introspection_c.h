@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/rosidl_typesupport_introspection_c/kobuki_ros_interfaces/msg/detail/scan_angle__rosidl_typesupport_introspection_c.h

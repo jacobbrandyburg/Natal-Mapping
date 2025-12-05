@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/cv_bridge" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/cv_bridge")

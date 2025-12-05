@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_ros" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/kobuki_ros")
