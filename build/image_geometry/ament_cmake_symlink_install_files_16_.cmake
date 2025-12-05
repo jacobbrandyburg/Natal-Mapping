@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/image_geometry" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/image_geometry/ament_cmake_core/image_geometryConfig.cmake" "/home/jacob/ROS2_WORKSPACES/Natal/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake" "DESTINATION" "share/image_geometry/cmake")

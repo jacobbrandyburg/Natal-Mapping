@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config/include/ecl/config/ecl.hpp

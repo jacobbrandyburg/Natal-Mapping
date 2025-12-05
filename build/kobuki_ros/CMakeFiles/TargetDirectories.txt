@@ -1,9 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/uninstall.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/kobuki_ros_uninstall.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/test.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/edit_cache.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/rebuild_cache.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/list_install_components.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/install.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/install/local.dir
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros/CMakeFiles/install/strip.dir

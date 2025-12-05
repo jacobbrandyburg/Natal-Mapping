@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/cv_bridge/ament_cmake_core/cv_bridgeConfig-version.cmake

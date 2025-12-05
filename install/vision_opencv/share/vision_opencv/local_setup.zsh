@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/vision_opencv/ament_cmake_environment_hooks/local_setup.zsh

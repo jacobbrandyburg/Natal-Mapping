@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera_msgs/rosidl_generator_cpp/astra_camera_msgs/msg/device_info.hpp

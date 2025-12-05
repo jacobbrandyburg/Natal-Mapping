@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__struct.h

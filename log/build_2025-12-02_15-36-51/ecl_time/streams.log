@@ -1,0 +1,64 @@
+[1.156s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time -- -j16 -l16
+[1.250s] [  5%] Built target gtest_main
+[1.250s] [ 11%] Built target gtest
+[1.251s] [ 47%] Built target ecl_time
+[1.284s] [ 52%] Built target ecl_time_example_random_number_generator
+[1.287s] [ 58%] Built target ecl_test_frequency
+[1.287s] [ 70%] Built target ecl_test_snooze
+[1.288s] [ 70%] Built target ecl_time_example_sleep
+[1.288s] [ 76%] Built target ecl_test_timestamp
+[1.289s] [ 82%] Built target ecl_test_cpuwatch_rt
+[1.290s] [ 88%] Built target ecl_test_sleep
+[1.290s] [ 94%] Built target ecl_test_time_data
+[1.292s] [100%] Built target ecl_test_stopwatch
+[1.304s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time -- -j16 -l16
+[1.308s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time
+[1.317s] -- Install configuration: ""
+[1.318s] -- Execute custom install script
+[1.321s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/cpuwatch.hpp
+[1.321s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/cpuwatch_rt.hpp
+[1.322s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/duration.hpp
+[1.323s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/frequency.hpp
+[1.323s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/macros.hpp
+[1.324s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/random_number_generator.hpp
+[1.324s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/sleep.hpp
+[1.324s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/sleep_pos.hpp
+[1.325s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/sleep_win.hpp
+[1.325s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/snooze.hpp
+[1.326s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/snooze_pos.hpp
+[1.326s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/snooze_win.hpp
+[1.326s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/stopwatch.hpp
+[1.327s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/time_data.hpp
+[1.327s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/timestamp.hpp
+[1.328s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/timestamp_base.hpp
+[1.328s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/timestamp_pos.hpp
+[1.328s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time/timestamp_win.hpp
+[1.329s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/include/ecl/time.hpp
+[1.330s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/lib/ecl_time/demo_random_number_generator
+[1.331s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/lib/ecl_time/demo_sleep
+[1.332s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/library_path.sh
+[1.333s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/library_path.dsv
+[1.335s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[1.336s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[1.337s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/ament_prefix_path.sh
+[1.339s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/ament_prefix_path.dsv
+[1.340s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/path.sh
+[1.341s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/environment/path.dsv
+[1.343s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/local_setup.bash
+[1.344s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/local_setup.sh
+[1.345s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/local_setup.zsh
+[1.346s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/local_setup.dsv
+[1.346s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/package.dsv
+[1.360s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ament_index/resource_index/packages/ecl_time
+[1.361s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[1.362s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.362s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[1.363s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.364s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig.cmake
+[1.364s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[1.365s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/package.xml
+[1.367s] -- Up-to-date: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ecl_timeExport.cmake
+[1.367s] -- Up-to-date: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/share/ecl_time/cmake/ecl_timeExport-noconfig.cmake
+[1.370s] -- Up-to-date: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/lib/libecl_time.so.1.2.1
+[1.370s] -- Up-to-date: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time/lib/libecl_time.so
+[1.374s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted LD_LIBRARY_PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_time_lite/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/lib:/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_time

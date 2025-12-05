@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_streams/include/ecl/streams" FILES "console_streams.hpp" "file_streams.hpp" "log_stream.hpp" "macros.hpp" "manipulators.hpp" "serial_stream.hpp" "shared_file_stream.hpp" "socket_streams.hpp" "string_stream.hpp" "text_stream.hpp" "DESTINATION" "include/ecl/streams")

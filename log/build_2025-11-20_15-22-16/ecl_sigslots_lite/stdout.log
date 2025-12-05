@@ -1,3 +1,0 @@
-[ 50%] [32mBuilding CXX object src/examples/CMakeFiles/demo_sigslots_lite.dir/sigslots.cpp.o[0m
-[100%] [32m[1mLinking CXX executable demo_sigslots_lite[0m
-[100%] Built target demo_sigslots_lite

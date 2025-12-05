@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/OrbbecSDK_ROS2/orbbec_camera_msgs" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_generator_type_description/orbbec_camera_msgs/srv/SetInt32.json" "DESTINATION" "share/orbbec_camera_msgs/srv")

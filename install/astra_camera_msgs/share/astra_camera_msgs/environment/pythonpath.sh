@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera_msgs/ament_cmake_environment_hooks/pythonpath.sh

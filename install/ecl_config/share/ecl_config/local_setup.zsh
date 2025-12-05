@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config/ament_cmake_environment_hooks/local_setup.zsh

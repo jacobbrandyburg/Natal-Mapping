@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_manipulators/ament_cmake_core/ecl_manipulatorsConfig-version.cmake

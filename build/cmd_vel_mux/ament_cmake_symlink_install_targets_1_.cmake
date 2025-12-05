@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux/libcmd_vel_mux.so" "/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux/libcmd_vel_mux.so" "/home/jacob/ROS2_WORKSPACES/Natal/build/cmd_vel_mux/libcmd_vel_mux.so" "TARGETS" "cmd_vel_mux" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

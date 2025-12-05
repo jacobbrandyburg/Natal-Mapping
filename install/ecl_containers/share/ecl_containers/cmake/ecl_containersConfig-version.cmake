@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_containers/ament_cmake_core/ecl_containersConfig-version.cmake

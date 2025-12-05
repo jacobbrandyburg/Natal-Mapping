@@ -1,0 +1,116 @@
+-- Found ament_cmake_ros: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.1 (/opt/ros/kilted/share/angles/cmake)
+-- Found diagnostic_msgs: 5.5.1 (/opt/ros/kilted/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.3.6 (/opt/ros/kilted/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ecl_build: 1.0.3 (/opt/ros/kilted/share/ecl_build/cmake)
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+-- Found ecl_errors: 1.2.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found ecl_sigslots: 1.2.1 (/home/jacob/ROS2_WORKSPACES/Natal/install/ecl_sigslots/share/ecl_sigslots/cmake)
+-- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+-- Found kobuki_core: 1.4.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_core/share/kobuki_core/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+-- Found nav_msgs: 5.5.1 (/opt/ros/kilted/share/nav_msgs/cmake)
+-- Found rclcpp_components: 29.5.3 (/opt/ros/kilted/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found tf2: 0.41.2 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_ros: 0.41.2 (/opt/ros/kilted/share/tf2_ros/cmake)
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(kobuki_ros PUBLIC
+      ${diagnostic_msgs_TARGETS}
+      ${geometry_msgs_TARGETS}
+      ${kobuki_ros_interfaces_TARGETS}
+      ${nav_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      angles::angles
+      diagnostic_updater::diagnostic_updater
+      kobuki_core::kobuki_core
+      rclcpp::rclcpp
+      rclcpp_components::component
+      rclcpp_components::component_manager
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (ament_target_dependencies)
+
+[0m
+-- Configuring done (58.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_node
+[ 33%] Built target kobuki_ros_node
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libkobuki_ros.so[0m
+[100%] Built target kobuki_ros
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/lib/libkobuki_ros.so
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/include/kobuki_node/odometry.hpp
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/launch/__pycache__/kobuki_node-launch.cpython-312.pyc
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/environment/path.sh
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/environment/path.dsv
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/local_setup.bash
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/local_setup.sh
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/local_setup.zsh
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/local_setup.dsv
+-- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/package.dsv
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/kobuki_node/share/kobuki_node/package.xml

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_io/include/ecl/io" FILES "macros.hpp" "poll.hpp" "socketpair.hpp" "sockets.hpp" "DESTINATION" "include/ecl/sockets")

@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_auto_docking/ament_cmake_core/kobuki_auto_dockingConfig-version.cmake

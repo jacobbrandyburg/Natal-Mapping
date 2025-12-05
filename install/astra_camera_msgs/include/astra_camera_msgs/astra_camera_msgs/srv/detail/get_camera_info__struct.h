@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/astra_camera_msgs/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__struct.h

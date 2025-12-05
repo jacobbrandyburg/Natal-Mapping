@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_random_walker/ament_cmake_environment_hooks/local_setup.bash

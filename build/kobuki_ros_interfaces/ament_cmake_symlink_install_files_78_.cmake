@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/kobuki_ros_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/kobuki_ros_interfaces/cmake")

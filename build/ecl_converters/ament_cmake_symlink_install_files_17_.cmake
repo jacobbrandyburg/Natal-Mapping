@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_converters" FILES "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_converters/ament_cmake_core/ecl_convertersConfig.cmake" "/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_converters/ament_cmake_core/ecl_convertersConfig-version.cmake" "DESTINATION" "share/ecl_converters/cmake")

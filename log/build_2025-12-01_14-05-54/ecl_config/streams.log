@@ -1,0 +1,42 @@
+[0.137s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config -- -j16 -l16
+[0.896s] [ 12%] Built target ecl_detect_posix
+[0.896s] [ 25%] Built target gtest_main
+[0.897s] [ 37%] Built target ecl_detect_endian
+[0.900s] [ 50%] Built target gtest
+[0.944s] [ 62%] Built target ecl_test_portable_types
+[0.946s] [ 75%] Built target ecl_test_endianness
+[0.948s] [ 93%] Built target ecl_test_macros
+[0.948s] [100%] Built target ecl_test_char_sign
+[1.021s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --build /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config -- -j16 -l16
+[1.024s] Invoking command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config
+[1.050s] -- Install configuration: ""
+[1.050s] -- Execute custom install script
+[1.052s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/ecl.hpp
+[1.053s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/char_sign.hpp
+[1.053s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[1.053s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/endianness.hpp
+[1.053s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/macros.hpp
+[1.055s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/portable_types.hpp
+[1.056s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config/windows.hpp
+[1.056s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/include/ecl/config.hpp
+[1.058s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin/ecl_detect_endian
+[1.058s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/bin/ecl_detect_posix
+[1.059s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[1.059s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[1.061s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[1.062s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[1.063s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/environment/path.sh
+[1.065s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/environment/path.dsv
+[1.066s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/local_setup.bash
+[1.068s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/local_setup.sh
+[1.069s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/local_setup.zsh
+[1.071s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/local_setup.dsv
+[1.071s] -- Symlinking: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/package.dsv
+[1.086s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[1.088s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[1.090s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.090s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[1.092s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[1.092s] -- Up-to-date symlink: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/package.xml
+[1.092s] -- Up-to-date: /home/jacob/ROS2_WORKSPACES/Natal/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[1.114s] Invoked command in '/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted /usr/bin/cmake --install /home/jacob/ROS2_WORKSPACES/Natal/build/ecl_config

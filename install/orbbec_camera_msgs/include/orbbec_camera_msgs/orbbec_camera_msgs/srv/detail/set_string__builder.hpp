@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/orbbec_camera_msgs/rosidl_generator_cpp/orbbec_camera_msgs/srv/detail/set_string__builder.hpp

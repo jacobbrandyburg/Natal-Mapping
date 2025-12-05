@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_safety_controller.dir/src/safety_controller.cpp.o[0m
-[ 75%] Built target kobuki_safety_controller_node
-[100%] [32m[1mLinking CXX shared library libkobuki_safety_controller.so[0m
-[100%] Built target kobuki_safety_controller

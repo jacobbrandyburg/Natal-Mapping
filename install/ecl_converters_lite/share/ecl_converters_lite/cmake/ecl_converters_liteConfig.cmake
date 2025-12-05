@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/build/ecl_converters_lite/ament_cmake_core/ecl_converters_liteConfig.cmake

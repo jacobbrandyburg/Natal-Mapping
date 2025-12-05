@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_converters/include/ecl/converters/char_strings.hpp

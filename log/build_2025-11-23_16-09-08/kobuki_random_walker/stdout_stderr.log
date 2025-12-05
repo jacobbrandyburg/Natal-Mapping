@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
-[ 75%] Built target kobuki_random_walker_node
-[100%] [32m[1mLinking CXX shared library libkobuki_random_walker.so[0m
-[100%] Built target kobuki_random_walker

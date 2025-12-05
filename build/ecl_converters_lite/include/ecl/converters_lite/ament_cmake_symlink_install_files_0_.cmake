@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_converters_lite/include/ecl/converters_lite" FILES "byte_array.hpp" "DESTINATION" "include/ecl/converters_lite")
