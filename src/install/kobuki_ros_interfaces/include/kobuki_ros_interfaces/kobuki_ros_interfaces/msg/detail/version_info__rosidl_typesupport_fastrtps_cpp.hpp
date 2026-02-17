@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces/rosidl_typesupport_fastrtps_cpp/kobuki_ros_interfaces/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp

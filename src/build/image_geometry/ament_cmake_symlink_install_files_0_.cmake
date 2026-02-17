@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/vision_opencv/image_geometry" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/image_geometry/environment")

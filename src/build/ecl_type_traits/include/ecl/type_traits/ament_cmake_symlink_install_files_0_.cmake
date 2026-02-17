@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_core/ecl_type_traits/include/ecl/type_traits" FILES "fundamental_types.hpp" "macros.hpp" "numeric_limits.hpp" "traits.hpp" "DESTINATION" "include/ecl/type_traits")

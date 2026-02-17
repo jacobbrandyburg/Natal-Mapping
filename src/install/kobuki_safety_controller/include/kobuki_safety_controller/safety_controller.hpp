@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp

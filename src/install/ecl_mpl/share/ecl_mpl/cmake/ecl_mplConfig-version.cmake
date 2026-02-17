@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_mpl/ament_cmake_core/ecl_mplConfig-version.cmake

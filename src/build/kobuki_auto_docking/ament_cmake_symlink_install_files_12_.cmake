@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_auto_docking" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_auto_docking/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/kobuki_auto_docking" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")

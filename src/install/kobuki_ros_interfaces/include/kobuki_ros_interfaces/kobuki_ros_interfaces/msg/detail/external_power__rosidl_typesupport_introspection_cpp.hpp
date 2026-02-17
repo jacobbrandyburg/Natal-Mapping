@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces/rosidl_typesupport_introspection_cpp/kobuki_ros_interfaces/msg/detail/external_power__rosidl_typesupport_introspection_cpp.hpp

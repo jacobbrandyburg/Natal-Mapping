@@ -1,4 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_core/lib/libkobuki_core.so.1.4.0
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/kobuki_core/lib/libkobuki_core.so

@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_streams/ament_cmake_core/ecl_streamsConfig-version.cmake

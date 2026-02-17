@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros/kobuki_node" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_node/ament_cmake_core/kobuki_nodeConfig.cmake" "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_node/ament_cmake_core/kobuki_nodeConfig-version.cmake" "DESTINATION" "share/kobuki_node/cmake")

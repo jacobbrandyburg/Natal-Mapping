@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker/ament_cmake_core/kobuki_random_walkerConfig.cmake

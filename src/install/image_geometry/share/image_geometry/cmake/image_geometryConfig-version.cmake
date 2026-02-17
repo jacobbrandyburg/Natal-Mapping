@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/image_geometry/ament_cmake_core/image_geometryConfig-version.cmake

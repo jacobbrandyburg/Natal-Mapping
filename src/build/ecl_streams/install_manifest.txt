@@ -1,4 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_streams/share/ecl_streams/cmake/ecl_streamsExport.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_streams/share/ecl_streams/cmake/ecl_streamsExport-noconfig.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_streams/lib/libecl_streams.so.1.2.1
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_streams/lib/libecl_streams.so

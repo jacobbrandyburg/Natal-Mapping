@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_concepts/ament_cmake_core/ecl_conceptsConfig.cmake

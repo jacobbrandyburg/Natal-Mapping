@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/ecl_lite/ecl_time_lite" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_time_lite/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ecl_time_lite")

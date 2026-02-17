@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

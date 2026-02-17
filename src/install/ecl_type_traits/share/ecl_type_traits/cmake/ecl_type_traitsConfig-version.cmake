@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_type_traits/ament_cmake_core/ecl_type_traitsConfig-version.cmake

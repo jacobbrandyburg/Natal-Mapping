@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/vision_opencv/ament_cmake_core/vision_opencvConfig.cmake

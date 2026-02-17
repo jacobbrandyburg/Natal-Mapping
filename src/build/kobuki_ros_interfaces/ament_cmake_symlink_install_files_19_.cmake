@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/jacob/ROS2_WORKSPACES/Natal/src/turtlebot2_ros2/kobuki_ros_interfaces" FILES "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_ros_interfaces/rosidl_generator_type_description/kobuki_ros_interfaces/action/AutoDocking.json" "DESTINATION" "share/kobuki_ros_interfaces/action")

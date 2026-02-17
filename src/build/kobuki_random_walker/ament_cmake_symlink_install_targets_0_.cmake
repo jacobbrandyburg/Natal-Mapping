@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jacob/ROS2_WORKSPACES/Natal/src/build/kobuki_random_walker/kobuki_random_walker_node" "TARGETS" "kobuki_random_walker_node" "DESTINATION" "lib/kobuki_random_walker")

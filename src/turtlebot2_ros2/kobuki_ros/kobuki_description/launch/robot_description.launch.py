@@ -30,6 +30,9 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
+import os
+from ament_index_python.packages import get_package_share_directory
+#^^Adding the depthimage_to_laserscan-launch.py folder to the description launch
 
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
@@ -49,6 +52,9 @@ def generate_launch_description():
         [FindPackageShare('kobuki_description'), 'rviz', 'model.rviz']
     )
 
+
+
+
     return LaunchDescription([
 
         DeclareLaunchArgument(
@@ -61,7 +67,7 @@ def generate_launch_description():
             name='use_sim_time',
             default_value='false',
             description='Use simulation time'
-        ),
+       ),
 
         DeclareLaunchArgument(
             name='rviz',
@@ -100,4 +106,16 @@ def generate_launch_description():
                 'use_sim_time': LaunchConfiguration('use_sim_time')
             }]
         ),
+
+	##Added depthimage_to_laserscan here vvv
+
+	Node(
+            package='depthimage_to_laserscan',
+            executable='depthimage_to_laserscan_node',
+            name='depthimage_to_laserscan',
+            remappings=[('depth', '/camera/depth/image_raw'),
+                        ('depth_camera_info', '/camera/depth/camera_info')],
+            parameters=[param_config])
+    	]),
+
     ])

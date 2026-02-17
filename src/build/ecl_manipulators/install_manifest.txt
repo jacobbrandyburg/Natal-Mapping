@@ -1,4 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_manipulators/share/ecl_manipulators/cmake/ecl_manipulatorsExport.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_manipulators/share/ecl_manipulators/cmake/ecl_manipulatorsExport-noconfig.cmake
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_manipulators/lib/libecl_manipulators.so.1.2.1
-/home/jacob/ROS2_WORKSPACES/Natal/src/install/ecl_manipulators/lib/libecl_manipulators.so

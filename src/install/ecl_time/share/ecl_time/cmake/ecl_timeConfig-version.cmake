@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_time/ament_cmake_core/ecl_timeConfig-version.cmake

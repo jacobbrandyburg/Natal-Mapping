@@ -1,1 +1,0 @@
-/home/jacob/ROS2_WORKSPACES/Natal/src/build/ecl_time_lite/include/ecl/time_lite/config.hpp
