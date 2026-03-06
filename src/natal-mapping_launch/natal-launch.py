@@ -1,33 +1,88 @@
-#This is the Natal Launch file, everything should technically build from here
+from launch import LaunchDescription
+from launch_ros.actions import Node
+from launch.actions import IncludeLaunchDescription
+from launch.substitutions import PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 
-import os
+# This is the launch file for the Natal-Mapping project. This should properly boot up the Kobuki_Node, Camera,
+# Map, Turtlebot_Description and Scan
 
-import ament_index_python.packages
-import launch
-import launch_ros.actions
+#The teleop, and base_to_camera commands should be run in separate terminals
 
-import yaml
+## (**) means done, I think
 
 
 def generate_launch_description():
-    share_dir = ament_index_python.packages.get_package_share_directory('kobuki_node')
-    # There are two different ways to pass parameters to a non-composed node;
-    # either by specifying the path to the file containing the parameters, or by
-    # passing a dictionary containing the key -> value pairs of the parameters.
-    # When starting a *composed* node on the other hand, only the dictionary
-    # style is supported.  To keep the code between the non-composed and
-    # composed launch file similar, we use that style here as well.
-    params_file = os.path.join(share_dir, 'config', 'kobuki_node_params.yaml')
-    with open(params_file, 'r') as f:
-        params = yaml.safe_load(f)['kobuki_ros_node']['ros__parameters']
-    kobuki_ros_node = launch_ros.actions.Node(package='kobuki_node',
-                                              executable='kobuki_ros_node',
-                                              output='both',
-                                              parameters=[params],
-                                                remappings=[('/commands/velocity', '/cmd_vel')],
-                                                )
 
-    return launch.LaunchDescription([kobuki_ros_node])
+    ####### Files that launch with "launch" (ros2 launch) need to be launched with IncludeLaunchDescription #######
 
+    #Starting up the Kobuki_node (**)
+    kobuki_node = IncludeLaunchDescription(
+        PathJoinSubstitution([
+                FindPackageShare('kobuki_node'),
+                'launch',
+                'kobuki_node-launch.py'
+        ])
+    )
 
+    #Starting up the Astra Camera (**)
+    camera_astra = IncludeLaunchDescription(
+        PathJoinSubstitution([
+                FindPackageShare('astra_camera'),
+                'launch',
+                'astra.launch.xml'
+        ])
+    )
 
+    #Starting up the Map (**)
+    slam_tool = IncludeLaunchDescription(
+        PathJoinSubstitution([
+                FindPackageShare('slam_toolbox'),
+                'launch',
+                'online_async_launch.py'
+        ])
+    )
+
+    #Starting up the Turtlebot_Description (need to add the gui:=False agrument)
+    turtlebot = IncludeLaunchDescription(
+        PathJoinSubstitution([
+                FindPackageShare('turtlebot_description'),
+                'launch',
+                'display.launch.py'
+        ]),
+        launch_arguments={
+                'gui':'False'
+        }.items()
+    )
+
+    return LaunchDescription([
+
+        #Nodes to launch
+        kobuki_node,
+        camera_astra,
+        slam_tool,
+        turtlebot,
+
+        ####### Files that launch with "run" (ros2 run) need to be launched with Node #######
+
+        #Depthimage_to_laserscan **
+        Node(
+            package='depthimage_to_laserscan',
+            executable='depthimage_to_laserscan_node',
+            name='depthimage_to_laserscan',
+            remappings=[('depth', '/camera/depth/image_raw'),
+                        ('depth_camera_info', '/camera/depth/camera_info'),
+                        ('scan','/scan')],
+            parameters=[
+                {'qos_overrides./depth.subscriber.reliability':'best_effort'},
+                {'scan_height':240}]
+        ),
+
+        #Base_to_Camera **
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='base_to_camera',
+            arguments=['0','0','0.2','0','0','0','base_link','camera_link']
+        )
+    ])
