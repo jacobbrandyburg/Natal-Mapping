@@ -75,7 +75,7 @@ def generate_launch_description():
                         ('scan','/scan')],
             parameters=[
                 {'qos_overrides./depth.subscriber.reliability':'best_effort'},
-                {'scan_height':240}]
+                {'scan_height':1}]
         ),
 
         #Base_to_Camera **

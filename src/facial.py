@@ -1,11 +1,11 @@
 import cv2
 
-#face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +
-#                                    "haarcascade_frontalface_default.xml")
-#smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 
-#                                    "haarcascade_smile.xml")
-#eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 
-#                                    "haarcascade_eye.xml")
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +
+                                    "haarcascade_frontalface_default.xml")
+smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 
+                                    "haarcascade_smile.xml")
+eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 
+                                    "haarcascade_eye.xml")
 
 def detect_features(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -21,7 +21,7 @@ def detect_features(frame):
         for (xp, yp, wp, hp) in smiles:
             face = cv2.rectangle(face, (xp, yp), (xp+wp, yp+hp),
                               color=(0, 0, 255), thickness=5)
-            
+
         eyes = eye_cascade.detectMultiScale(gray_face,
                     2.5, minNeighbors=7)
         for (xp, yp, wp, hp) in eyes:
@@ -31,7 +31,7 @@ def detect_features(frame):
     return frame
 
 
-stream = cv2.VideoCapture(0) #This can be changed to the filepath to camera (ros2_astra_camera)
+stream = cv2.VideoCapture("/home/turtlebot/Natal/natal-mapping/src/ros2_astra_camera/astra_camera/launch/astra.launch.xml") #This can be changed to the filepath to camera (ros2_astra_camera)
 
 if not stream.isOpened():
     print("No stream :(")
@@ -60,3 +60,6 @@ while (True): #If stream is opened, read/display each frame, frame by frame
     cv2.imshow("Webcam!", frame) #Display the frame
     if cv2.waitKey(1) == ord('q'): #We use 1 here as "False" and casts and integer(1) it to 'q' key, which exits the infinite loop for the stream
         break
+
+stream.release()
+cv2.destroyAllWindows()
