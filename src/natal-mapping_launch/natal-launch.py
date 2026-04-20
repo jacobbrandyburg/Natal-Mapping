@@ -84,5 +84,14 @@ def generate_launch_description():
             executable='static_transform_publisher',
             name='base_to_camera',
             arguments=['0','0','0.2','0','0','0','base_link','camera_link']
-        )
+        ),
+
+	#Door_Detection
+	Node(
+	    package='door_detection',
+    	    executable='door_detection',
+            name='door_detection',
+            output='screen'
+	),
+
     ])
