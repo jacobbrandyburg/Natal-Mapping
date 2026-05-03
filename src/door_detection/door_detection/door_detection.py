@@ -72,12 +72,12 @@ class DoorDetector(Node):
                         vertical_lines.append((x1,y1,x2,y2)) #Each line has a size 4 for each part of both coords
 
                 #This is to show every line in horizontal array
-                for (x1,y1,x2,y2) in horizontal_lines:
-                    cv2.line(frame, (x1,y1),(x2,y2), (255,0,0),2)
+                #for (x1,y1,x2,y2) in horizontal_lines:
+                    #cv2.line(frame, (x1,y1),(x2,y2), (255,0,0),2)
 
                 #This is to show every line in vertical array
-                for (x1,y1,x2,y2) in vertical_lines:
-                    cv2.line(frame, (x1,y1),(x2,y2), (255,0,255),2) 
+                #for (x1,y1,x2,y2) in vertical_lines:
+                    #cv2.line(frame, (x1,y1),(x2,y2), (255,0,255),2) 
 
             # I think I need to see if one of the end points of the horizontal lines matches or is very close to one of the vertical lines
             for i, vertical in enumerate(vertical_lines): #Left or Right Side of the Door
