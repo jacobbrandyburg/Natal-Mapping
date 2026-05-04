@@ -70,8 +70,11 @@ Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal
 My door detection program works in this codebase through the publisher and subscriber method of ROS2's node communication implementations and OpenCV's cv_bridge. By following [this tutorial](https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html) on how publsiher and subscriber nodes talk to each other, I was able to convert my code into a format that could be seen through as a topic.
 
 
-ROS2 Publisher and Subscriber Model
-![alt text](image.png)
+ROS2 Publisher and Subscriber Model  
+![alt text](image.png)  
+
+RViz ultilizing the door detection program to identify a door  
+![door_detection_in_RViz](Screenshot_2026-05-04_080752.png)  
 
 
 ## Support
