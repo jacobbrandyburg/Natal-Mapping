@@ -41,13 +41,13 @@ You can run each of these nodes individually if you wanted to like so:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-In order to operate the Turtlebot after first SSH-ing into the docked netbook and cloning this repository, you must first open up two linux tabs (one for the launch file and one for the keyboard control) and source this workspace with the following command from the root directory in each one:
-*source ./install/setup.bash*
+In order to operate the Turtlebot after first SSH-ing into the docked netbook and cloning this repository, you must first open up two linux tabs (one for the launch file and one for the keyboard control) and source this workspace with the following command from the root directory in each one:  
+**source ./install/setup.bash**
 
-In the launch file terminal, simply navigate to the folder with the launch file:
-*cd natal_mapping/src/natal-mapping_launch*
-and run:
-*ros2 launch natal-launch.py*
+In the launch file terminal, simply navigate to the folder with the launch file:  
+**cd natal_mapping/src/natal-mapping_launch**
+and run:  
+**ros2 launch natal-launch.py**
 
 After a little while, you should hear the turtlebot chime on, the LiDAR's camera turn on and RViz pop up on your screen (if the x forwarding is working correctly). This means everything worked successfully! :D 
 RViz can now be used and the displays based on all the nodes of the launch file can be toggled on from here. Here are all the displays I usually use and what topics they are subscribed to:
@@ -56,14 +56,14 @@ RViz can now be used and the displays based on all the nodes of the launch file 
 - LaserScan: /scan
 - Map: /map
 
-In the second terminal, source it the same way, but after doing so, run this command to start up the teleoperation via the keyboard:
-*ros2 run teleop_twist_keyboard teleop_twist_keyboard* 
+In the second terminal, source it the same way, but after doing so, run this command to start up the teleoperation via the keyboard:  
+**ros2 run teleop_twist_keyboard teleop_twist_keyboard** 
 
 You should then see a popup on this terminal with a guide showing you how to control the Turtlebot. I personally set the turn and movement speed closer to 0.31 as anything higher is too unstable to move around in and the odom is 
 struggling to keep up.
 
-Finally, to see the door detection program in RViz, simply pull up the image display again change it to:
-*/door_detection/image*
+Finally, to see the door detection program in RViz, simply pull up the image display again change it to:  
+**/door_detection/image**
 
 The camera feed should now show any pink vertical lines and blue horizontal lines detected if the lighting and the distances are set correctly. Any regular doors or elevators will be detected if the Turtlebot is around 5 feet away from the door.
 
@@ -75,7 +75,7 @@ Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
 
-//Attempting to upload a gif from the ROS2 Kilted Tutorial
+ROS2 Publisher and Subscriber Model
 ![alt text](image.png)
 
 
