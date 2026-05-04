@@ -7,12 +7,12 @@ Transitioning to a new campus as a college freshman can be very stressful, espec
 Natal Mapping is the collaborative effort of both the Robot Operating System’s environment visualizer tool (RViz) and a door detection program made from the Probabilistic Houghlines Transform algorithm to build a floor map and classify rooms based on the geometric structure of the door at the same time. The door detection process works by filtering lines from geometric shapes in the camera feed and highlighting the ones that form the basic shapes of a door or elevator. Both tools determine the layout based on the relative positions of classrooms, bathrooms, and elevators during map construction. 
 With color-coordinated post-processing, these maps can then be printed out onto large posters or bulletin boards placed near building entrances or next to stairs, elevators, or anywhere where anyone enters a new floor.
 
-The ROS visualizer works off of a Turtlebot model 2e's LiDAR camera and for this project, I went through the process of searching for the correct drivers from ROS Github repositories to find if anyone has started the process of creating drivers that works for specifically the 2e model. This capstone project was also, in part, a passion project for me to learn more about robot software development. A good portion of this assignment was learning ROS, finding drivers, learning the Ubuntu Linux interface and how to manually build and manage packages from source. Somethings might unorganized, but I will be actively working to polish things up as time continues on.
+The ROS visualizer works off of a Turtlebot model 2e's LiDAR camera and for this project, I went through the process of searching for the correct drivers from ROS Github repositories to find if anyone has started the process of creating drivers that works for specifically the 2e model. This capstone project was also, in part, a passion project for me to learn more about robot software development. A good portion of this assignment was learning ROS, finding drivers, learning the Ubuntu Linux interface and how to manually build and manage packages from source. Somethings might be unorganized, but I will be actively working to polish things up as time continues on.
 
 
 ## Getting started and Setup
 
-This repository has all the code needed for running the model: Turtlebot 2e in ROS2, but some packages need to be built, so please follow this step-by-step instruction for doing so.
+This repository has all the drivers needed for running the Turtlebot model 2e with a Kobuki base in specifically the short-term distribution of ROS2, Kilted Kaiju. Some packages may need to be built, so please follow this step-by-step instruction for doing so.
 
 This is also made, in part by ________ in they're turtlebot2 ROS2 repo https://github.com/idorobotics/turtlebot2_ros2. They suggest also following these commands on both the docked and workstation laptop:
 
@@ -45,7 +45,7 @@ In order to operate the Turtlebot after first SSH-ing into the docked netbook an
 **source ./install/setup.bash**
 
 In the launch file terminal, simply navigate to the folder with the launch file:  
-**cd natal_mapping/src/natal-mapping_launch**
+**cd natal_mapping/src/natal-mapping_launch**  
 and run:  
 **ros2 launch natal-launch.py**
 
@@ -80,7 +80,7 @@ ROS2 Publisher and Subscriber Model
 
 
 ## Support
-My work email address: jbrandy1@unca.edu
+My work email address: jbrandy1@unca.edu  
 My personal email adress: jacobbrandyburg@gmail.com
 
 
