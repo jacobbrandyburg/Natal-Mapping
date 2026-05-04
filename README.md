@@ -67,8 +67,8 @@ Finally, to see the door detection program in RViz, simply pull up the image dis
 
 The camera feed should now show any pink vertical lines and blue horizontal lines detected if the lighting and the distances are set correctly. Any regular doors or elevators will be detected if the Turtlebot is around 5 feet away from the door.
 
-Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal and source the workspace again. From the root directory, or whereever you want to store your maps, run this command:
-*ros2 run nav2_map_server map_server_cli -f map_name_here*
+Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal and source the workspace again. From the root directory, or whereever you want to store your maps, run this command:  
+**ros2 run nav2_map_server map_server_cli -f map_name_here**
 
 
 ## Understanding Concepts / Visuals
