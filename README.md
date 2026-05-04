@@ -74,7 +74,7 @@ ROS2 Publisher and Subscriber Model
 ![alt text](image.png)  
 
 RViz ultilizing the door detection program to identify a door  
-![door_detection_in_RViz](Screenshot_2026-05-04_080752.png)  
+![door_detection_in_RViz](RViz.png)  
 
 
 ## Support
