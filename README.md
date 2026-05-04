@@ -12,23 +12,21 @@ The ROS visualizer works off of a Turtlebot model 2e's LiDAR camera and for this
 
 ## Getting started and Setup
 
-This repository has all the drivers needed for running the Turtlebot model 2e with a Kobuki base in specifically the short-term distribution of ROS2, Kilted Kaiju. Some packages may need to be built, so please follow this step-by-step instruction for doing so.
+This repository has all the drivers needed for running the Turtlebot model 2e with a Kobuki base in specifically the short-term distribution of ROS2, Kilted Kaiju. Some packages may need to be built, so please follow this step-by-step instruction for doing so. Remember where there are mentions of a different ROS distro, replace it with Kilted Kaiju.
 
-This is also made, in part by ________ in they're turtlebot2 ROS2 repo https://github.com/idorobotics/turtlebot2_ros2. They suggest also following these commands on both the docked and workstation laptop:
+This repository stores the code for ROS2 codebases that will allow the model, Turtlebot 2e, to work in ROS2. This repository also takes the Kobuki base (**kobuki_node**) from the [*Idorobotics: Turtlebot2_ROS2*] (https://github.com/idorobotics/turtlebot2_ros2) repository and the Astra Camera (**camera_astra**) it uses from the [*Orbbec: OrbbecSDK_ROS2*](https://github.com/orbbec/ros2_astra_camera/tree/master) repository.
 
-This repository will store the code for a ROS2 workspace that will allow the model, Turtlebot 2e, to work in ROS2. This repository also takes the Kobuki base code from the *Idorobotics: Turtlebot2_ROS2* repository and the Astra camera it uses from the *Orbbec: OrbbecSDK_ROS2* repository.
-
-Make sure before SSH-ing into the netbook that both the docked netbook and the control station device are both on the same network. 
+Make sure before SSH-ing into the netbook that both the docked netbook and the control station device are both on the same network and includes the correct flags too. -X is for running graphical interfaces on the remote device (RViz) and -C flag is for data compression (as the netbooks did struggle a bit with streaming RViz).  
 - *ssh -XC netbookname@ipaddress*
 
 This project's launch file (natal-launch.py) is made up of many different programs and separate launch files. Those being:
-- kobuki_node: Turns on the Kobuki base
-- camera_astra: Turns on the Astra Camera
-- slam_tool: Boots up RViz
-- turtlebot: All the components to build the Turtlebot description model in RViz
-- Depthimage_to_laserscan: Turns on the actual scan topic for observing the environment and building the map
-- Base_to_Camera: Attaching the camera to the base link of the Turtlebot description model
-- Door_Detection: Door detection program
+- **kobuki_node**: Turns on the Kobuki base
+- **camera_astra**: Turns on the Astra Camera
+- **slam_tool**: Boots up RViz
+- **turtlebot**: All the components to build the Turtlebot description model in RViz
+- **Depthimage_to_laserscan**: Turns on the actual scan topic for observing the environment and building the map
+- **Base_to_Camera**: Attaching the camera to the base link of the Turtlebot description model
+- **Door_Detection**: Door detection program
 
 You can run each of these nodes individually if you wanted to like so:
 - ros2 launch kobuki_node kobuki_node-launch.py
@@ -65,7 +63,7 @@ struggling to keep up.
 Finally, to see the door detection program in RViz, simply pull up the image display again change it to:  
 **/door_detection/image**
 
-The camera feed should now show any pink vertical lines and blue horizontal lines detected if the lighting and the distances are set correctly. Any regular doors or elevators will be detected if the Turtlebot is around 5 feet away from the door.
+The camera feed should now show any pink vertical lines and blue horizontal lines detected if the lighting and the distances are set correctly. Any regular doors or elevators will be detected if the Turtlebot is around ~5 feet away from the door.
 
 Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal and source the workspace again. From the root directory, or whereever you want to store your maps, run this command:  
 **ros2 run nav2_map_server map_server_cli -f map_name_here**
