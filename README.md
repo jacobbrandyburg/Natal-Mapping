@@ -71,8 +71,8 @@ Once you are satisfied with your map (DO NOT CLOSE RVIZ), open one more terminal
 **ros2 run nav2_map_server map_server_cli -f map_name_here**
 
 
-## Understanding Concepts / Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## Understanding Concepts / Visuals  
+My door detection program works in this codebase through the publisher and subscriber method of ROS2's node communication implementations and OpenCV's cv_bridge. By following [this tutorial](https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html) on how publsiher and subscriber nodes talk to each other, I was able to convert my code into a format that could be seen through as a topic.
 
 
 ROS2 Publisher and Subscriber Model
