@@ -13,14 +13,14 @@ class DoorDetector(Node):
 
         self.publisher_ = self.create_publisher(Image,'/door_detection/image', 10) #Creating the Publisher
 
-        self.bridge = CvBridge()
+        self.bridge = CvBridge() #CvBridge function call
 
         self.subscription = self.create_subscription(Image,'/camera/color/image_raw',self.callback, 10) #Creating the Subscriber
 
     #We will use this function to look for rectangles in a frame that will be identified as certain types of doors
     def callback(self,msg):
         try:
-            frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+            frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8') #Converts a sensor_msgs/Image ROS message into an OpenCV image
         except CvBridgeError as e:
             print(e)
             return
@@ -28,8 +28,6 @@ class DoorDetector(Node):
         grayScale = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) #Convert to grayscale
         blurred = cv2.GaussianBlur(grayScale, (5, 5), 0) # Reduces noise and decreases detailed for finding shapes
         cannyEdges = cv2.Canny(blurred, 50, 150,apertureSize = 3) #Raw images to binary maps finds edges with canny detector
-        kernel = np.ones((3, 3), np.uint8) #Check this one again
-        cannyEdges = cv2.dilate(cannyEdges, kernel, iterations=1) #I have to change the thickness of the lines to form a rectangle, this can't be done without it
         lines = cv2.HoughLinesP(cannyEdges,2,np.pi/180,100,minLineLength=200,maxLineGap=10) #Dectecting points to form a line
 
         #The lines to identify in a frame should be stored here 
@@ -39,7 +37,7 @@ class DoorDetector(Node):
         #The rectangles to be formed
         cornersDetected=[]
 
-        if lines is not None: #If lines are none, it would normally fail and the stream would end. This needs to instead catch this from happening
+        if lines is not None: #If lines are none, it would normally fail and the stream would end. This needs to stay to catch this from happening
             for line in lines: 
                 x1,y1,x2,y2 = line[0]
 
@@ -71,18 +69,18 @@ class DoorDetector(Node):
                     if not too_close:
                         vertical_lines.append((x1,y1,x2,y2)) #Each line has a size 4 for each part of both coords
 
-                #This is to show every line in horizontal array
+                #DEBUG: This is to show every line in horizontal array
                 #for (x1,y1,x2,y2) in horizontal_lines:
                     #cv2.line(frame, (x1,y1),(x2,y2), (255,0,0),2)
 
-                #This is to show every line in vertical array
+                #DEBUG: This is to show every line in vertical array
                 #for (x1,y1,x2,y2) in vertical_lines:
                     #cv2.line(frame, (x1,y1),(x2,y2), (255,0,255),2) 
 
-            # I think I need to see if one of the end points of the horizontal lines matches or is very close to one of the vertical lines
+            #See if one of the end points of the horizontal lines matches or is very close to one of the vertical lines
             for i, vertical in enumerate(vertical_lines): #Left or Right Side of the Door
                 for j, vertical2 in enumerate(vertical_lines): #Left or Right Side of the Door
-                    if i >= j:
+                    if i >= j: #Check that the same line isn't being compared a second time
                         continue
                     
                     for vertical3 in vertical_lines: #Potientially the center of an elevator
@@ -92,8 +90,8 @@ class DoorDetector(Node):
                             continue
 
                         for horizontal in horizontal_lines:
-                            horX1 = horizontal[0] #One of the end points of the horz
-                            horX2 = horizontal[2] #One of the other ends of the horz
+                            horX1 = horizontal[0] #One of the end points of the horz (0,1),(2,3)
+                            horX2 = horizontal[2] #One of the other ends of the horz (0,1),(2,3)
 
                             leftmostXCoord = min(horX1,horX2) #Find the furthest left x-coord of the horizontal line
                             rightmostXCoord = max(horX1,horX2) #Find the furthest right coord of the horizontal line
@@ -102,7 +100,7 @@ class DoorDetector(Node):
 
                             if(leftmostXCoord <= vertical[0] <= rightmostXCoord and leftmostXCoord <= vertical2[0] <= rightmostXCoord): #See if the distance between the both of the lines ...
                                 cornersDetected.append((vertical,horizontal,vertical2,vertical3)) #Add to cornerDectected as a potential elevator
-                                is_Elevator = False
+                                is_Elevator = False #Always assume the elevator is false to start
 
 
             # Drawing the Rectangle Bound Box for elevators
@@ -111,15 +109,14 @@ class DoorDetector(Node):
                 x_right = max(vertical[0],vertical2[0]) # Whichever one is furthest right
                 bottom = horizontal[1] 
 
-                #The "elevator" line is being drawn on the right side of the elvator instead of the
-                if(center-20 <= vertical3[0] <= center+20):
+                if(center-20 <= vertical3[0] <= center+20): #If any line appears near the center of the sides of the door...
                     cv2.line(frame, (vertical3[0],vertical3[1]),(vertical3[2],vertical3[3]), (255,0,255),2) #Show where the elevator line is 
-                    is_Elevator = True
-                #Since I don't need a top, finding halfway of the vertical lines should be a good enough estimate (-1000). Higher than the bottom to give the illusion of the top of the door missing up close
-
+                    is_Elevator = True #Identify this as an elevator
+            
+                #Since I don't need a top of the elevator (the turtlebot is small), finding halfway of the vertical lines should be a good enough estimate (-1000). Higher than the bottom to give the illusion of the top of the door missing up close
                 cv2.rectangle(frame,(x_left, bottom - 1000),(x_right,bottom), (0,255,255), 2)
+                
                 # Adding text beside the box 
-
                 if(is_Elevator == True):
                     label = "Elevator"
                     color = (12, 123, 242)
@@ -141,7 +138,7 @@ class DoorDetector(Node):
                 frame = cv2.putText(frame, label, text_position, font, font_scale, color, thickness, cv2.LINE_AA)
 
         try:
-            return_msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
+            return_msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8') #Converts OpenCV image back into a sensor_msgs/Image ROS message
             self.publisher_.publish(return_msg)
         except CvBridgeError as e:
             print(e)
@@ -150,13 +147,13 @@ class DoorDetector(Node):
 
 
 def main(args= None):
-    rclpy.init(args=args)
+    rclpy.init(args=args) #Initializes Node creation
 
-    detector = DoorDetector()
-    rclpy.spin(detector)
+    detector = DoorDetector() #Creates a node from the class
+    rclpy.spin(detector) #Starting executor loop, running until killed or the launch file is terminated
 
-    detector.destroy_node()
-    rclpy.shutdown()
+    detector.destroy_node() #Destroys Door Detector Node
+    rclpy.shutdown() #Terminates python client library
 
 if __name__ == '__main__':
     main()
