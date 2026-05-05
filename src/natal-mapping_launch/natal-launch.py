@@ -5,11 +5,11 @@ from launch.substitutions import PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 
 # This is the launch file for the Natal-Mapping project. This should properly boot up the Kobuki_Node, Camera,
-# Map, Turtlebot_Description and Scan
+# Map, Turtlebot_Description, Scan, Base to Camera description attachment and the Door Detection program
 
-#The teleop, and base_to_camera commands should be run in separate terminals
+#The teleop must be run in a separate sourced terminal
 
-## (**) means done, I think
+## (**) means done
 
 
 def generate_launch_description():
@@ -43,7 +43,7 @@ def generate_launch_description():
         ])
     )
 
-    #Starting up the Turtlebot_Description (need to add the gui:=False agrument)
+    #Starting up the Turtlebot_Description (need to add the gui:=False agrument) (**)
     turtlebot = IncludeLaunchDescription(
         PathJoinSubstitution([
                 FindPackageShare('turtlebot_description'),
@@ -65,7 +65,7 @@ def generate_launch_description():
 
         ####### Files that launch with "run" (ros2 run) need to be launched with Node #######
 
-        #Depthimage_to_laserscan **
+        #Depthimage_to_laserscan (**)
         Node(
             package='depthimage_to_laserscan',
             executable='depthimage_to_laserscan_node',
@@ -78,7 +78,7 @@ def generate_launch_description():
                 {'scan_height':1}]
         ),
 
-        #Base_to_Camera **
+        #Base_to_Camera (**)
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
@@ -86,12 +86,12 @@ def generate_launch_description():
             arguments=['0','0','0.2','0','0','0','base_link','camera_link']
         ),
 
-	#Door_Detection
-	Node(
-	    package='door_detection',
+	    #Door_Detection (**)
+	    Node(
+	        package='door_detection',
     	    executable='door_detection',
             name='door_detection',
             output='screen'
-	),
+	    ),
 
     ])
